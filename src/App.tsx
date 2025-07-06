@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import PageContent from './components/PageContent/PageContent';
 import AboutMeSection from './components/AboutMeSection/AboutMeSection';
 import ContactSection from './components/ContactSection/ContactSection';
+import Banner from './components/Banner/Banner';
 
 const useEffectLoader = (setShowLoading: React.Dispatch<React.SetStateAction<boolean>>) => {
   useEffect(() => {
@@ -45,8 +46,9 @@ function App() {
       >
         <Menu />
 
+        <Banner />
+        
         <PageContent>
-          <h1>Bem-vinda</h1>
 
           <AboutMeSection />
           
