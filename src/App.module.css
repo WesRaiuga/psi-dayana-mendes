@@ -9,8 +9,9 @@
 
 html, body {
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #cbcbcb;
+  scroll-behavior: smooth;
 }
 
 body {

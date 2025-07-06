@@ -11,6 +11,7 @@ header {
     box-sizing: border-box;
     z-index: 2;
     background-color: blueviolet;
+    color: #fff;
 }
 
 .navbar {
@@ -18,8 +19,13 @@ header {
 	top: 0;
 	width: 100%;
 }
-.titulo h2{
-    margin: 10px 0;
+
+.titulo {
+    padding: 10px;
+}
+
+.titulo img {
+    max-height: 50px;
 }
 
 .menuHamburguer {
@@ -114,4 +120,4 @@ header {
     .filtros.mobile {
       display: none;
     }
-  }
+}

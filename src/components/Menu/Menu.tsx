@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Link from "../Link/Link";
 import styles from "./Menu.module.css";
+import logotipo from "../../assets/img/logotipo-principal-1.png";
+import HomeLinks from "../HomeLinks/HomeLinks";
 
 const Menu: React.FC = () => {
 	const [menuAtivo, setMenuAtivo] = useState(false);
@@ -10,7 +11,9 @@ const Menu: React.FC = () => {
 		<div className={styles.navbar}>
 			<header>
 				<div className={styles.titulo}>
-					<h2>Psi Dayana Mendes</h2>
+					<a href="https://www.psidayanamendes.com">
+						<img src={logotipo} alt="logotipo da psicóloga, escrito Dayana Mendes Psicóloga CRP: 06/177353" />
+					</a>
 				</div>
 				
 				<div className={`${styles.menuHamburguer} ${menuAtivo ? styles.ativo : ""}`}
@@ -21,16 +24,10 @@ const Menu: React.FC = () => {
 					<span className={`${styles.traco} ${styles.traco3}`} ></span>
 				</div>
 				
-				<div className={styles.filtros}>
-					<Link href="#about-me">Sobre mim</Link>
-					<Link href="#contact">Contato</Link>
-				</div>
+				<HomeLinks className={styles.filtros} />
 			</header>
 			
-			<nav className={`${styles.filtros} ${styles.mobile} ${menuAtivo ? styles.ativo : ""}`}>
-				<Link href="#about-me">Sobre mim</Link>
-				<Link href="#contact">Contato</Link>
-			</nav>
+			<HomeLinks className={`${styles.filtros} ${styles.mobile} ${menuAtivo ? styles.ativo : ""}`} />
 		</div>
 	);
 };

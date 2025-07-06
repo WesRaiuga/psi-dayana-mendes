@@ -1,0 +1,12 @@
+import React from 'react';
+import style from './PageContent.module.css';
+
+type PageContentProps = {
+  children: React.ReactNode;
+};
+
+const PageContent: React.FC<PageContentProps> = ({ children }) => {
+  return <main>{ children }</main>
+}
+
+export default PageContent;

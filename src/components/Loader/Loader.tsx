@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import logo from '../../assets/img/logotipo-principal-1.png';
+import style from './Loader.module.css';
 
 const Loader: React.FC<{ loading: boolean }> = ({loading}) => {
   return (
@@ -6,15 +8,12 @@ const Loader: React.FC<{ loading: boolean }> = ({loading}) => {
       style={{
         opacity: loading ? 1 : 0,
         pointerEvents: loading ? 'auto' : 'none',
-        transition: 'opacity 0.8s ease',
-        position: 'fixed',
-        inset: 0,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
       }}
+      className={style.loaderContainer}
     >
-      <span style={{ fontSize: 24 }}>Carregando...</span>
+      <img 
+        className={style.loaderImage}
+        src={logo} alt="loader carregando a página com logo da psicóloga" />
     </div>
   )
 }
