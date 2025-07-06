@@ -1,16 +1,16 @@
 /* margem de 20px */
-main {
+.main {
     margin-top: 30px;
     padding: 10px 20px;
 }
 
-main > * {
+.main > * {
     padding-top: 30px;
     margin: 0 0 30px;
 }
 
 @media(min-width: 576px) {
-    main {
+    .main {
         padding: 10px 50px;
     }
 }

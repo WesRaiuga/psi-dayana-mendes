@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './PageContent.module.css';
 
 type PageContentProps = {
@@ -6,7 +5,7 @@ type PageContentProps = {
 };
 
 const PageContent: React.FC<PageContentProps> = ({ children }) => {
-  return <main>{ children }</main>
+  return <main className={style.main}>{ children }</main>
 }
 
 export default PageContent;

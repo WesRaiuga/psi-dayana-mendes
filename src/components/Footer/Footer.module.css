@@ -68,8 +68,9 @@ footer hr {
 
     .firstRow {
         flex-direction: row;
-        justify-content: space-evenly;
-        padding: 20px 50px;
+        justify-content: center;
+        gap: 120px;
+        padding: 50px 50px;
     }
 
     .logo {

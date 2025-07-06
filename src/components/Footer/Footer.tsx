@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './Footer.module.css';
 import logotipo from '../../assets/img/logotipo-para-fundo-preto.png';
 import HomeLinks from '../HomeLinks/HomeLinks';
