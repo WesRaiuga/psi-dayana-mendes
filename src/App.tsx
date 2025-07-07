@@ -7,6 +7,7 @@ import PageContent from './components/PageContent/PageContent';
 import AboutMeSection from './components/AboutMeSection/AboutMeSection';
 import ContactSection from './components/ContactSection/ContactSection';
 import Banner from './components/Banner/Banner';
+import EducationSection from './components/EducationSection/EducationSection';
 
 const useEffectLoader = (setShowLoading: React.Dispatch<React.SetStateAction<boolean>>) => {
   useEffect(() => {
@@ -47,27 +48,15 @@ function App() {
         <Menu />
 
         <Banner />
-        
+
         <PageContent>
 
           <AboutMeSection />
+
+          <EducationSection />
           
           <ContactSection />
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>

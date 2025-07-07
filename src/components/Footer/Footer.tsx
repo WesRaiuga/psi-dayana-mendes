@@ -21,6 +21,9 @@ const Footer = () => {
           <a href="https://www.instagram.com/dayanamendes.psi/" target="_blank" rel="noopener noreferrer" title='Instagram'>
             <i className="fa-brands fa-instagram"></i>
           </a>
+          <a href="https://www.linkedin.com/in/dayanamendes/" target="_blank" rel="noopener noreferrer" title='LinkedIn'>
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
         </div>
 
       </div>

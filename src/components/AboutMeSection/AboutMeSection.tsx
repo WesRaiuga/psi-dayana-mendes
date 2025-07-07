@@ -1,19 +1,23 @@
-import Separator from '../Separator/Separator';
+import style from '../AboutMeSection/AboutMeSection.module.css';
 
 const AboutMeSection = () => {
   return (
     <section id='about-me'>
-        <Separator />
-        <h2>Sobre mim</h2>
+        <h2 className={style.sectionTitle}>Sobre mim</h2>
         <p>
-            Olá, meu nome é Dayana Mendes, sou psicóloga e trabalho com terapia cognitivo-comportamental. 
-            Tenho experiência em ajudar pessoas a superar desafios emocionais e comportamentais, 
-            promovendo o bem-estar mental e emocional.
+          Heyy, boas-Vindas! Me chamo Dayana Mendes, sou psicóloga clínica (CRP 06/177353) e criadora de conteúdo digital sobre saúde mental.. Atuo com Psicoterapia Individual e de Casais, com foco especial em mulheres jovens adultas e pessoas LGBTQIAPN+ que buscam ressignificar suas histórias, construir vínculos mais saudáveis e fortalecer sua autonomia emocional.
         </p>
         <p>
-            Estou aqui para oferecer apoio e orientação, ajudando você a alcançar seus objetivos pessoais 
-            e profissionais. Se você está enfrentando dificuldades emocionais, estresse ou ansiedade, 
-            estou pronta para ajudar.
+          Minha trajetória não começa no título de psicóloga. Venho de uma origem simples, sou filha de migrantes nordestinos e fui criada por mulheres extremamente humanas que me ensinaram sobre afeto, resistência — e também sobre o cansaço de tentar dar conta de tudo sozinha.
+        </p>
+        <p>
+          Já me senti perdida dentro da minha própria história. Foi através da terapia — e do estudo — que reencontrei caminhos, me reconstruí e passei a olhar pra minha vida com mais respeito e humanidade.
+        </p>
+        <p>
+          Hoje meu compromisso é criar espaços seguros onde você possa se escutar, se fortalecer e construir novas formas de existir, sem fórmulas prontas, sem julgamentos.
+        </p>
+        <p>
+          Minha escuta é sistêmica, narrativa, feminista e atravessada pela vida real, com suas camadas, desafios e possibilidades de recomeço.
         </p>
     </section>
   )
