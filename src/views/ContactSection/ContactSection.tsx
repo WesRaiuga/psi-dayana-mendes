@@ -1,9 +1,6 @@
-import Separator from '../Separator/Separator';
-
 const ContactSection = () => {
   return (
     <section id='contact'>
-      <Separator />
       <h2>Contato</h2>
       <p>
         Se você está interessada em agendar uma consulta ou tem alguma dúvida, 

@@ -1,6 +1,7 @@
 import style from './Footer.module.css';
 import logotipo from '../../assets/img/logotipo-para-fundo-preto.png';
-import HomeLinks from '../HomeLinks/HomeLinks';
+import HomeLinks from '../../components/MenuLinks/MenuLinks';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
       <div className={style.firstRow}>
 
         <div className={style.logo}>
-          <a href="https://www.psidayanamendes.com" target="_blank" rel="noopener noreferrer">
-            <img src={logotipo} alt="Logotipo da psicóloga Dayana Mendes" />
-          </a>
+          <Link to="/">
+            <img src={logotipo} alt="logotipo da psicóloga, escrito Dayana Mendes Psicóloga CRP: 06/177353" />
+          </Link>
         </div>
         
         <div>

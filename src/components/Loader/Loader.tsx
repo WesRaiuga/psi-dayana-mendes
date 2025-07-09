@@ -13,7 +13,7 @@ const Loader: React.FC<{ loading: boolean }> = ({loading}) => {
     >
       <img 
         className={style.loaderImage}
-        src={logo} alt="loader carregando a página com logo da psicóloga" />
+        src={logo} alt="logotipo da psicóloga Dayana Mendes" />
     </div>
   )
 }
