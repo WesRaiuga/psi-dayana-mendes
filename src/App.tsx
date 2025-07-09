@@ -1,71 +1,49 @@
-import React, { useEffect, useState } from 'react';
-import style from './App.module.css';
-import Menu from './components/Menu/Menu';
-import Loader from './components/Loader/Loader';
-import Footer from './components/Footer/Footer';
-import PageContent from './components/PageContent/PageContent';
-import AboutMeSection from './components/AboutMeSection/AboutMeSection';
-import ContactSection from './components/ContactSection/ContactSection';
-import Banner from './components/Banner/Banner';
-import EducationSection from './components/EducationSection/EducationSection';
+import { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import DefaultLayout from "./layouts/DefaultLayout";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Loader from "./components/Loader/Loader";
 
-const useEffectLoader = (setShowLoading: React.Dispatch<React.SetStateAction<boolean>>) => {
+const loaderTime = Math.random() * (600 - 300) + 300; // tempo aleatório entre 300ms e 600ms
+const contentTime = 400; // tempo fixo para mostrar o conteúdo após o loader
+
+function App() {
+  const [showContent, setShowContent] = useState(false);
+
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    const show = setTimeout(() => setShowLoading(false), 200);
-    return () => clearTimeout(show);
-  }, [setShowLoading]);
-}
+    setLoading(true);
+    const timer = setTimeout(() => setLoading(false), loaderTime);
+    return () => clearTimeout(timer);
+  }, [setLoading]); // mostra o loader a cada troca de rota
 
-const useEffectShowContent = (loading: boolean, setShowContent: React.Dispatch<React.SetStateAction<boolean>>) => {
   useEffect(() => {
     if (!loading) {
-      const show = setTimeout(() => setShowContent(true), 200);
+      const show = setTimeout(() => setShowContent(true), contentTime);
       return () => clearTimeout(show);
     } else {
       setShowContent(false);
     }
   }, [loading, setShowContent]);
-}
-
-function App() {
-  const [showLoading, setShowLoading] = useState(true);
-  const [showContent, setShowContent] = useState(false);
-
-  useEffectLoader(setShowLoading);
-  useEffectShowContent(showLoading, setShowContent);
 
   return (
     <>
-      <Loader loading={showLoading} />
-
+      <Loader loading={loading} />
       <div
-      className={style.content}
-      style={{
+        style={{
           opacity: showContent ? 1 : 0,
-          transition: 'opacity 1.5s ease'
+          transition: "opacity 1.5s ease",
         }}
       >
-        <Menu />
-
-        <Banner />
-
-        <PageContent>
-
-          <AboutMeSection />
-
-          <EducationSection />
-          
-          <ContactSection />
-
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, iusto id voluptatem ipsam error maiores architecto expedita incidunt voluptatibus explicabo nam? Rem dolor inventore porro exercitationem nam quia dolorum?</p>
-        </PageContent>
-
-        <Footer />
+        <Routes>
+          <Route element={<DefaultLayout />}>
+            <Route path="/" element={<Home />} />
+            
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
       </div>
     </>
   );
