@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/img/logotipo-principal-1.png';
+import logo from '../../assets/img/logos/logotipo-principal-1.png';
 import style from './Loader.module.css';
 
 const Loader: React.FC<{ loading: boolean }> = ({loading}) => {

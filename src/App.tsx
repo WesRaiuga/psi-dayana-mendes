@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import DefaultLayout from "./layouts/DefaultLayout";
-import Home from "./pages/Home";
-import NotFound from "./pages/NotFound";
+import Home from "./pages/Home/Home";
+import NotFound from "./pages/NotFound/NotFound";
 import Loader from "./components/Loader/Loader";
 
 const loaderTime = Math.random() * (600 - 300) + 300; // tempo aleatório entre 300ms e 600ms

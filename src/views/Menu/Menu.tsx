@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Menu.module.css";
-import logotipo from "../../assets/img/logotipo-principal-1.png";
+import logotipo from "../../assets/img/logos/logotipo-principal-1.png";
 import HomeLinks from "../../components/MenuLinks/MenuLinks";
 import { Link } from "react-router-dom";
 
@@ -12,7 +12,7 @@ const Menu: React.FC = () => {
     <div className={styles.navbar}>
       <header>
         <div className={styles.titulo}>
-          <Link to="/">
+          <Link to="/" state={{ scrollTo: "banner" }}>
             <img src={logotipo} alt="logotipo da psicóloga, escrito Dayana Mendes Psicóloga CRP: 06/177353" />
           </Link>
         </div>

@@ -1,15 +1,18 @@
 .bannerContent {
     height: 100vh;
-    background-color: rgb(133, 133, 211);
+    background-color: var(--hero-bg-color);
+    /* background-image: linear-gradient(to bottom, var(--hero-bg-color) 50%, var(--highlight-section) 180%); */
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .bannerContent h1 {
     font-size: 5em;
+    color: var(--primary-color);
     letter-spacing: 8px;
     line-height: 100px;
     margin-bottom: 10px;
@@ -20,6 +23,7 @@
     font-size: 1.5em;
     letter-spacing: 2px;
     font-family: 'Quintessential', serif;
+    color: var(--text-color);
 }
 
 .scrollArrow {
@@ -29,10 +33,12 @@
     transform: translateX(-50%);
     font-size: 2em;
     cursor: pointer;
+    z-index: 1;
 }
 
 .scrollArrow i {
     animation: floating 2s ease-in-out infinite;
+    color: var(--primary-color);
 }
 
 @keyframes floating {

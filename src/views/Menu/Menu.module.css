@@ -10,15 +10,16 @@ header {
     width: 100%;
     box-sizing: border-box;
     z-index: 2;
-    background-color: blueviolet;
-    color: #fff;
+    background-color: var(--menu-bg-color);
+    color: var(--text-color);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.21);
 }
 
 .navbar {
     position: fixed;
 	top: 0;
 	width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .titulo {
@@ -45,7 +46,7 @@ header {
     border-radius: 10px;
     margin: 3.75px 0;
     transition: 0.5s;
-    background-color: #fff;
+    background-color: var(--text-color);
 }
 
 .traco1, .traco3 {
@@ -81,11 +82,12 @@ header {
     z-index: 1;
     transform: translateY(-101%);
     transition: 0.5s;
-    background-color: rgb(169, 96, 237);
+    background-color: var(--menu-bg-color-2);
 }
 
 .filtros.mobile.ativo {
     transform: translateY(0);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.21);
 }
 
 .filtros a {
@@ -98,7 +100,7 @@ header {
 @media(min-width: 576px) {
     header {
       justify-content: space-between;
-      padding: 0 20px;
+      padding: 0 0 0 20px;
     }
   
     .menuHamburguer {
@@ -110,12 +112,14 @@ header {
     }
 
     .filtros a{
-        padding: 10px;
+        padding: 25px 30px;
         width: auto;
     }
 
     .filtros a:hover{
-        transition: 0.5s;
+        background-color: var(--primary-color);
+        transition: 0.3s;
+        color: var(--text-color-light);
     }
   
     .filtros.mobile {
