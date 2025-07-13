@@ -15,7 +15,7 @@ const MenuLinks = ({ className }: MenuLinksProps) => {
         Sintomas
       </Link>
 
-      <Link to="/" state={{ scrollTo: "symptoms" }}>
+      <Link to="/" state={{ scrollTo: "how-it-works" }}>
         Como funciona
       </Link>
 

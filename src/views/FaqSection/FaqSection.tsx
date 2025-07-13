@@ -110,7 +110,7 @@ const FaqSection = () => {
             <button className={style.question} onClick={() => handleToggle(idx)} aria-expanded={openIndex === idx} aria-controls={`faq-answer-${idx}`}>
               <span>{item.question}</span>
               {/* <i className={`fas fa-angle-${openIndex === idx ? "up" : "down"}`}></i> */}
-              <i className={`fas fa-angle-up`} style={{ transform: openIndex === idx ? "rotateZ(-180deg)" : "none" }}></i>
+              <i className={`fas fa-angle-down`} style={{ transform: openIndex === idx ? "rotateZ(-180deg)" : "none" }}></i>
             </button>
             <div id={`faq-answer-${idx}`} className={style.answer} style={{ maxHeight: openIndex === idx ? "500px" : "0" }}>
               {item.answer.map((text, i) => (

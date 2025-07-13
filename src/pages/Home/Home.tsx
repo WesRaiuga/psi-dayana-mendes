@@ -6,6 +6,9 @@ import AboutMeSection from "../../views/AboutMeSection/AboutMeSection";
 import EducationSection from "../../views/EducationSection/EducationSection";
 import Divider from "../../components/Divider/Divider";
 import FaqSection from "../../views/FaqSection/FaqSection";
+import SymptomsSection from "../../views/SymptomsSection/SymptomsSection";
+import HowItWorksSection from "../../views/HowItWorksSection/HowItWorksSection";
+import ApproachSection from "../../views/ApproachSection/ApproachSection";
 
 const Home = () => {
   const location = useLocation();
@@ -27,6 +30,9 @@ const Home = () => {
       <AboutMeSection />
       <Divider color="#5b99a1" />
       <EducationSection />
+      <SymptomsSection />
+      <HowItWorksSection />
+      <ApproachSection />
       <FaqSection />
     </>
   );

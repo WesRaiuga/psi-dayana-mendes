@@ -28,7 +28,7 @@
 }
 
 .question i {
-  transition: transform 0.5s ease;
+  transition: transform 0.4s ease;
 }
 
 .answer {
