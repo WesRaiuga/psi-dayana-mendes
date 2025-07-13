@@ -1,30 +1,30 @@
 import { Link } from "react-router-dom";
 
-interface HomeLinksProps {
+interface MenuLinksProps {
   className?: string;
 }
 
-const MenuLinks = ({ className }: HomeLinksProps) => {
+const MenuLinks = ({ className }: MenuLinksProps) => {
   return (
     <nav className={`${className ? " " + className : ""}`}>
       <Link to="/" state={{ scrollTo: "about-me" }}>
         Sobre mim
       </Link>
 
-      <Link to="/" state={{ scrollTo: "education" }}>
-        Formações
+      <Link to="/" state={{ scrollTo: "symptoms" }}>
+        Sintomas
+      </Link>
+
+      <Link to="/" state={{ scrollTo: "symptoms" }}>
+        Como funciona
       </Link>
 
       <Link to="/" state={{ scrollTo: "services" }}>
         Serviços
       </Link>
 
-      <Link to="/" state={{ scrollTo: "contact" }}>
-        Contato
-      </Link>
-
       <Link to="/" state={{ scrollTo: "faq" }}>
-        FAQ
+        Perguntas
       </Link>
     </nav>
   );

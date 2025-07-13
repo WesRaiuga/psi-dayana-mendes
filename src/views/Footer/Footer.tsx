@@ -18,12 +18,12 @@ const Footer = () => {
         </div>
 
         <div className={style.socialIcons}>
-          <a href="https://www.instagram.com/dayanamendes.psi/" target="_blank" rel="noopener noreferrer" title="Instagram">
+          <Link to="https://www.instagram.com/dayanamendes.psi/" target="_blank" rel="noopener noreferrer" title="Instagram">
             <i className="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/dayanamendes/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          </Link>
+          <Link to="https://www.linkedin.com/in/dayanamendes/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <i className="fa-brands fa-linkedin"></i>
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -38,9 +38,9 @@ const Footer = () => {
         <div className={style.devInfo}>
           <p>
             Site desenvolvido por <span> </span>
-            <a href="https://www.linkedin.com/in/wesraiuga/" target="_blank" rel="noopener noreferrer">
+            <Link to="https://www.linkedin.com/in/wesraiuga/" target="_blank" rel="noopener noreferrer">
               Weslley Aguiar
-            </a>
+            </Link>
           </p>
         </div>
       </div>

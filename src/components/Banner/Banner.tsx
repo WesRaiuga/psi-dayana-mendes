@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./Banner.module.css";
 
 const Banner = () => {
@@ -6,9 +7,9 @@ const Banner = () => {
       <h1>Dayana Mendes</h1>
       <p>Psicóloga Clínica</p>
       <div className={style.scrollArrow}>
-        <a href="#about-me">
+        <Link to="/" state={{ scrollTo: "about-me" }}>
           <i className="fa-solid fa-chevron-down"></i>
-        </a>
+        </Link>
       </div>
     </div>
   );
