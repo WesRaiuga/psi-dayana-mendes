@@ -11,7 +11,7 @@
     max-height: 80px;
 }
 
-@media(min-width: 576px) {
+@media(min-width: 800px) {
     .loaderImage {
         max-height: 100px;
     }

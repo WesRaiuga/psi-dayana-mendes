@@ -1,54 +1,70 @@
+.bannerContainer {
+  height: 100vh;
+  background-color: var(--hero-bg-color);
+  /* background-image: linear-gradient(to bottom, var(--hero-bg-color) 50%, var(--highlight-section) 180%); */
+  color: #fff;
+}
+
 .bannerContent {
-    height: 100vh;
-    background-color: var(--hero-bg-color);
-    /* background-image: linear-gradient(to bottom, var(--hero-bg-color) 50%, var(--highlight-section) 180%); */
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 50px;
+  position: relative;
+  bottom: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.bannerContent > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bannerContent h1 {
-    font-size: 5em;
-    color: var(--primary-color);
-    letter-spacing: 8px;
-    line-height: 100px;
-    margin-bottom: 10px;
-    text-align: center;
+  font-size: 5em;
+  color: var(--primary-color);
+  letter-spacing: 8px;
+  line-height: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 3px 1px black;
 }
 
 .bannerContent p {
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    font-family: 'Quintessential', serif;
-    color: var(--text-color);
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-family: "Quintessential", serif;
+  color: var(--text-color);
 }
 
 .scrollArrow {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 2em;
-    cursor: pointer;
-    z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  font-size: 2em;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .scrollArrow i {
-    animation: floating 2s ease-in-out infinite;
-    color: var(--primary-color);
+  animation: floating 2s ease-in-out infinite;
+  color: var(--primary-color);
 }
 
 @keyframes floating {
-    0% {
-        transform: translateX(-50%) translateY(0);
-    }
-    50% {
-        transform: translateX(-50%) translateY(-10px);
-    }
-    100% {
-        transform: translateX(-50%) translateY(0);
-    }
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@media (min-width: 800) {
+  .bannerContent {
+    /* bottom: 450px; */
+  }
 }
