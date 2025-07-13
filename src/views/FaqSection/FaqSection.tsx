@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import style from "../FaqSection/FaqSection.module.css";
 
 const faqData = [
