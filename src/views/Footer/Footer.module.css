@@ -4,7 +4,7 @@ footer {
     flex-direction: column;
     gap: 15px;
     background-color: var(--footer-bg-color);
-    color: #fff;;
+    color: #fff;
     font-size: 1em;
 }
 
@@ -63,7 +63,7 @@ footer a{
     text-decoration: underline;
 }
 
-@media(min-width: 576px) {
+@media(min-width: 800px) {
     footer {
         justify-content: space-evenly;
         font-size: 0.8em;

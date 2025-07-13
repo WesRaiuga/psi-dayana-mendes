@@ -42,10 +42,10 @@
   margin: 5px 0;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1000px) {
   .sectionContent {
     padding: 15px;
-    margin: 0 200px;
+    margin: 0 10%;
     width: auto;
     position: initial;
   }
