@@ -1,3 +1,8 @@
+.educationSection {
+  background-color: var(--highlight-section);
+  padding-top: 30px;
+}
+
 .educationSection ul {
     list-style: none;
 }
