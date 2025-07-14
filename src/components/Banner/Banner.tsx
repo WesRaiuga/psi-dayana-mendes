@@ -6,7 +6,7 @@ import { SparklesCore } from "../ui/sparkles";
 const Banner = () => {
   return (
     <div id="banner" className={style.bannerContainer}>
-      <SparklesCore id="tsparticlesfullpage" background="transparent" minSize={0.6} maxSize={2.4} particleDensity={100} className="w-full h-full" particleColor="#8772cf" />
+      <SparklesCore id="tsparticlesfullpage" background="transparent" minSize={0.6} maxSize={2.4} particleDensity={40} className="w-full h-full" particleColor="#8772cf" />
       <div className={style.bannerContent}>
         <div>
           <h1>Dayana Mendes</h1>

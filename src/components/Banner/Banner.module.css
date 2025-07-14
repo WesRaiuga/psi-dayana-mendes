@@ -1,6 +1,11 @@
 .bannerContainer {
   height: 100vh;
   background-color: var(--hero-bg-color);
+  background-image: url("../../assets/img/bg-pattern.png");
+  background-color: rgba(222, 232, 254, 0.6);
+  background-blend-mode: lighten;
+  background-size: 800px;
+  background-repeat: no-repeat;
   /* background-image: linear-gradient(to bottom, var(--hero-bg-color) 50%, var(--highlight-section) 180%); */
   color: #fff;
 }
@@ -22,6 +27,7 @@
 
 .bannerContent h1 {
   font-size: 5em;
+  font-weight: 600;
   color: var(--primary-color);
   letter-spacing: 8px;
   line-height: 100px;
@@ -32,6 +38,7 @@
 
 .bannerContent p {
   font-size: 1.5em;
+  font-weight: 600;
   letter-spacing: 2px;
   font-family: "Quintessential", serif;
   color: var(--text-color);
@@ -63,8 +70,8 @@
   }
 }
 
-@media (min-width: 800) {
-  .bannerContent {
-    /* bottom: 450px; */
+@media (min-width: 800px) {
+  .bannerContainer {
+    background-size: 100vw;
   }
 }

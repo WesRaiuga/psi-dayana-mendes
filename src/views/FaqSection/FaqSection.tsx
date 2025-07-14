@@ -1,5 +1,6 @@
 import { useState } from "react";
 import style from "../FaqSection/FaqSection.module.css";
+import { Link } from "react-router-dom";
 
 const faqData = [
   {
@@ -15,10 +16,11 @@ const faqData = [
     answer: [
       <>
         É simples! Você pode me chamar pelo WhatsApp no número{" "}
-        <a href="https://wa.me/5511960765640?text=Oi%20Day,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sessão"
+        <Link to="https://wa.me/5511960765640?text=Oi%20Day,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sessão"
+        target="_blank" rel="noopener noreferrer"
         style={{ color: "#5b99a1" }}>
           (11) 96076-5640
-        </a>
+        </Link>
         {" "}e combinamos a sua primeira sessão.
       </>,
       "Nesse primeiro contato, te explico como funciona o processo, tiramos dúvidas e, se você sentir que faz sentido, já agendamos o melhor dia e horário para o nosso encontro. Se quiser, pode me mandar mensagem sem compromisso — vou ter o maior cuidado em te escutar.",

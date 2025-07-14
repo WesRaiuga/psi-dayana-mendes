@@ -41,7 +41,7 @@ footer a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 100px;
+    max-height: 80px;
     font-size: 1em;
 }
 

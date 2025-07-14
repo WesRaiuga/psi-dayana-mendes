@@ -5,6 +5,7 @@
   background-color: var(--highlight-section);
   background-image: linear-gradient(to bottom, var(--hero-bg-color) -0%, var(--highlight-section) 20%);
   padding-top: 120px;
+  padding-bottom: 50px;
 }
 
 .profileImageContainer img {
