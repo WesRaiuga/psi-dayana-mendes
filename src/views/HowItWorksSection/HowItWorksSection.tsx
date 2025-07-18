@@ -1,6 +1,9 @@
+import Subtitle from "../../components/Subtitle/Subtitle";
+
 const HowItWorksSection = () => {
   return (
     <section id='how-it-works'>
+      <Subtitle>Sobre as Sessões</Subtitle>
       <h2>Como Funcionam as Sessões</h2>
       <p>Meu consultório é um espaço seguro e online, pensado para acolher mulheres, pessoas LGBTQIA+ e casais de diferentes configurações que buscam se escutar, reorganizar as emoções, ressignificar padrões e fortalecer vínculos.</p>
       <p>Os atendimentos acontecem por chamada de vídeo, respeitando a sua privacidade, o seu tempo e a sua história — seja você do Brasil ou morando fora do país.</p>

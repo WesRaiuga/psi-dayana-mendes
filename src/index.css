@@ -74,7 +74,7 @@ h2 {
 }
 
 section {
-  padding: 60px 8% 20px;
+  padding: 30px 8% 20px;
 }
 
 section h2 {
@@ -91,7 +91,7 @@ section p {
 
 @media (min-width: 800px) {
   section {
-    padding: 60px 10% 20px;
+    padding: 50px 10% 20px;
   }
 }
 

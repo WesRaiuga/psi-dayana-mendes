@@ -1,6 +1,7 @@
 import { useState } from "react";
 import style from "../FaqSection/FaqSection.module.css";
 import { Link } from "react-router-dom";
+import Subtitle from "../../components/Subtitle/Subtitle";
 
 const faqData = [
   {
@@ -104,17 +105,20 @@ const FaqSection = () => {
   return (
     <section id="faq" className={style.faqSection}>
       <div className={style.sectionTitle}>
+        {/* <h1>
+          <span>F.A.Q.</span>
+        </h1> */}
+        <Subtitle>F.A.Q.</Subtitle>
         <h2>Perguntas Frequentes</h2>
       </div>
       <div className={style.sectionContent}>
         {faqData.map((item, idx) => (
           <div className={style.questionContainer} key={idx}>
-            <button className={style.question} onClick={() => handleToggle(idx)} aria-expanded={openIndex === idx} aria-controls={`faq-answer-${idx}`}>
+            <button className={`${style.question} ${openIndex === idx ? style.questionActive : ""}`} onClick={() => handleToggle(idx)} aria-expanded={openIndex === idx} aria-controls={`faq-answer-${idx}`}>
+              <i className={`fa-solid fa-caret-down`} style={{ transform: openIndex === idx ? "rotateX(-180deg)" : "none" }}></i>
               <span>{item.question}</span>
-              {/* <i className={`fas fa-angle-${openIndex === idx ? "up" : "down"}`}></i> */}
-              <i className={`fas fa-angle-down`} style={{ transform: openIndex === idx ? "rotateZ(-180deg)" : "none" }}></i>
             </button>
-            <div id={`faq-answer-${idx}`} className={style.answer} style={{ maxHeight: openIndex === idx ? "500px" : "0" }}>
+            <div id={`faq-answer-${idx}`} className={`${style.answer} ${openIndex === idx ? style.answerOpen : ""}`}>
               {item.answer.map((text, i) => (
                 <p key={i}>{text}</p>
               ))}

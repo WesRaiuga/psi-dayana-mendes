@@ -1,6 +1,9 @@
+import Subtitle from "../../components/Subtitle/Subtitle";
+
 const ContactSection = () => {
   return (
     <section id='contact'>
+      <Subtitle>Contato</Subtitle>
       <h2>Contato</h2>
       <p>
         Se você está interessada em agendar uma consulta ou tem alguma dúvida, 

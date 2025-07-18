@@ -1,4 +1,5 @@
 .wppLink {
+  width: fit-content;
   text-decoration: none;
   cursor: pointer;
   padding: 20px 40px;

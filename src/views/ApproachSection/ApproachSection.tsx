@@ -1,6 +1,9 @@
+import Subtitle from "../../components/Subtitle/Subtitle";
+
 const ApproachSection = () => {
   return (
     <section id='approach'>
+      <Subtitle>Minha Abordagem</Subtitle>
       <h2>Minha Abordagem</h2>
       <p>Minha escuta clínica é sustentada pelas <b>Práticas Narrativas</b>, pela <b>Terapia Sistêmica</b> e por um olhar feminista, interseccional e atento às singularidades de cada pessoa.</p>
       <p>Sou pós-graduanda em <b>Terapia Familiar Sistêmica</b> e sigo em constante formação, através de cursos, leituras, grupos de estudo e coletivos que fortalecem meu compromisso com um cuidado ético, responsável e politicamente sensível. Tenho capacitações em <b>tanatologia, relações afetivas, atendimentos para mulheres</b>, casais e processos que envolvem luto, mudança e reconstrução.</p>

@@ -1,14 +1,26 @@
-.questionContainer {
-  margin: 10px 0 30px;
-}
-
 .sectionContent {
-  padding: 15px;
-  border-radius: 20px;
+  border-radius: 10px;
+  overflow: hidden; /* Impede que filhos ultrapassem os cantos arredondados */
   background-color: var(--hero-bg-color);
   width: 110%;
   position: relative;
   right: 5%;
+  border: 1px solid #d5d8dc; /* Mantém a borda geral da caixa */
+}
+
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questionContainer {
+  border-bottom: 1px solid #d5d8dc;
+  transition: border-color 0.3s ease;
+}
+
+.questionContainer:last-child {
+  border-bottom: none; /* Remove a linha final */
 }
 
 .question {
@@ -20,22 +32,29 @@
   font-weight: bolder;
   text-align: left;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  gap: 12px;
-  transition: 0.7s;
+  gap: 10px;
   width: 100%;
+  padding: 20px 10px;
 }
 
-.question i {
-  transition: transform 0.4s ease;
+.questionActive {
+  color: var(--primary-color);
 }
 
 .answer {
-  display: block;
+  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease-out;
-  padding: 0;
+  opacity: 0;
+  padding: 0 20px;
+  transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
+}
+
+.answerOpen {
+  opacity: 1;
+  padding: 0 20px 15px;
+  max-height: 1000px;
 }
 
 .answer p {
@@ -44,9 +63,12 @@
 
 @media (min-width: 1000px) {
   .sectionContent {
-    padding: 15px;
     margin: 0 10%;
     width: auto;
     position: initial;
+  }
+
+  .sectionTitle h1 {
+    width: 33%;
   }
 }

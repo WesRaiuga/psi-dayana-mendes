@@ -1,4 +1,5 @@
 import style from "../EducationSection/EducationSection.module.css";
+import Subtitle from "../../components/Subtitle/Subtitle";
 // import profileImage from "../../assets/img/photos/day.jpg";
 
 const EducationSection = () => {
@@ -8,7 +9,8 @@ const EducationSection = () => {
         {/* <img src={profileImage} alt="foto da psicóloga Dayana Mendes" /> */}
       </div>
       <div>
-        <h2 className={style.sectionTitle}>Minhas Formações</h2>
+        <Subtitle>Minhas Formações</Subtitle>
+        <h2 className={style.sectionTitle}>Estudos e Experiências</h2>
         <p>Minha trajetória é feita de estudo, prática clínica e muita escuta:</p>
 
         <ul>

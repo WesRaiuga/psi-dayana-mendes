@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 100px;
+  gap: 50px;
 }
 
 .bannerContent > div {
@@ -77,6 +77,9 @@
 @media (min-width: 800px) {
   .bannerContainer {
     background-size: 100vw;
+  }
+  .bannerContent {
+    gap: 100px;
   }
   .bannerContent h1 {
     font-size: 8em;

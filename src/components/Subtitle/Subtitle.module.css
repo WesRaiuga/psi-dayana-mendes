@@ -1,0 +1,47 @@
+
+.subtitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle h1 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  color: #d7d3ec;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+}
+
+.subtitle h1::before {
+  display: block;
+  content: "";
+  border-block-end: 0;
+  flex-grow: 1;
+  border-block-start: 1px solid #d7d3ec;
+}
+
+.subtitle h1::after {
+  display: block;
+  content: "";
+  border-block-end: 0;
+  flex-grow: 1;
+  border-block-start: 1px solid #d7d3ec;
+}
+
+.subtitle h1 span {
+  margin: 0 10px;
+  font-family: 'Imperial Script', cursive;
+  font-family: 'Passions Conflict', cursive;
+  font-family: 'Updock', cursive;
+  font-size: 35px;
+}
+
+@media (min-width: 1000px) {
+  .subtitle h1 {
+    width: 33%;
+  }
+}

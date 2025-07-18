@@ -4,17 +4,22 @@
   align-items: center;
   background-color: var(--hero-bg-color);
   background-image: linear-gradient(to bottom, rgba(222, 232, 254, 0.6) -0%, #bbcacc 20%);
-  padding-top: 120px;
+  padding-top: 30px;
+}
+
+.profileImageContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .profileImageContainer img {
   height: 350px;
-  border: 1px solid #000;
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.21);
+  border: 1px solid var(--primary-color);
+  box-shadow: 5px 5px 10px 0px var(--primary-color);
   border-radius: 10px;
 }
 
-.aboutMeContent {
+.aboutMeText {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +28,21 @@
 
 @media (min-width: 800px) {
   .aboutMeSection {
-    padding-top: 80px;
-    flex-direction: row-reverse;
-    gap: 20px;
+    padding-top: 30px;
     background-color: var(--hero-bg-color);
     background-image: linear-gradient(to bottom, rgba(222, 232, 254, 0.6) -0%, #bbcacc 40%);
+  }
+
+  .aboutMeContent {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .aboutMeText {
+    display: flex;
+    flex-direction: column;
   }
 
   .profileImageContainer {
@@ -36,11 +51,7 @@
   }
 
   .profileImageContainer img {
-    height: auto;
+    /* height: auto; */
     width: 1100px;
-  }
-
-  .aboutMeContent {
-    align-items: flex-start;
   }
 }
