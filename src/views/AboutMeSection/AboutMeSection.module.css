@@ -7,6 +7,10 @@
   padding-top: 30px;
 }
 
+.sectionTitle {
+  width: 100%;
+}
+
 .profileImageContainer {
   display: flex;
   justify-content: center;
@@ -51,7 +55,6 @@
   }
 
   .profileImageContainer img {
-    /* height: auto; */
     width: 1100px;
   }
 }
