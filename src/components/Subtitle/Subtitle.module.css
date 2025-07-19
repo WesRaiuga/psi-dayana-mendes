@@ -9,11 +9,12 @@
   text-align: center;
   position: relative;
   top: 40px;
-  color: #d7d3ec;
+  color: rgba(136, 114, 207, 0.4);
   width: 300px;
   display: flex;
   align-items: center;
   font-weight: 100;
+  transform: scale(1.2);
 }
 
 .subtitle h1::before {
@@ -21,7 +22,7 @@
   content: "";
   border-block-end: 0;
   flex-grow: 1;
-  border-block-start: 1px solid #d7d3ec;
+  border-block-start: 1px solid rgba(136, 114, 207, 0.4);
 }
 
 .subtitle h1::after {
@@ -29,7 +30,7 @@
   content: "";
   border-block-end: 0;
   flex-grow: 1;
-  border-block-start: 1px solid #d7d3ec;
+  border-block-start: 1px solid rgba(136, 114, 207, 0.4);
 }
 
 .subtitle h1 span {
@@ -42,6 +43,6 @@
 
 @media (min-width: 1000px) {
   .subtitle h1 {
-    width: 33%;
+    width: 44%;
   }
 }

@@ -52,7 +52,7 @@ header {
     border-radius: 10px;
     margin: 3.75px 0;
     transition: 0.5s;
-    background-color: var(--text-color);
+    background-color: var(--primary-color);
 }
 
 .traco1, .traco3 {

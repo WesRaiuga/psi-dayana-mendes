@@ -1,8 +1,9 @@
+import style from "../ApproachSection/ApproachSection.module.css";
 import Subtitle from "../../components/Subtitle/Subtitle";
 
 const ApproachSection = () => {
   return (
-    <section id='approach'>
+    <section id='approach' className={style.approachSection}>
       <Subtitle>Minha Abordagem</Subtitle>
       <h2>Minha Abordagem</h2>
       <p>Minha escuta clínica é sustentada pelas <b>Práticas Narrativas</b>, pela <b>Terapia Sistêmica</b> e por um olhar feminista, interseccional e atento às singularidades de cada pessoa.</p>

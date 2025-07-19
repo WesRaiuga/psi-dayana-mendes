@@ -1,8 +1,9 @@
+import style from "../ServicesSection/ServicesSection.module.css";
 import Subtitle from "../../components/Subtitle/Subtitle";
 
 const ServicesSection = () => {
   return (
-    <section id='services'>
+    <section id='services' className={style.servicesSection}>
       <Subtitle>Meus Serviços</Subtitle>
       <h2>Outros Serviços</h2>
       <p>Além dos atendimentos clínicos em Psicoterapia Individual e de Casal, também ofereço outros espaços de cuidado, informação e conexão. Tudo com o mesmo compromisso ético, afetivo e político que sustenta meu trabalho.</p>

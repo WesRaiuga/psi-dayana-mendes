@@ -1,12 +1,10 @@
-import style from "./Divider.module.css";
-
 type DividerProps = {
   color: string;
 };
 
-const Divider: React.FC<DividerProps> = ({color}) => {
+const IntersectingWavesDivider: React.FC<DividerProps> = ({color}) => {
   return (
-    <div className={style.divider}>
+    <div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100">
         <g fill={color}>
           <path d="M0 1v99c134.3 0 153.7-99 296-99H0Z" opacity=".5"></path>
@@ -19,4 +17,4 @@ const Divider: React.FC<DividerProps> = ({color}) => {
   );
 };
 
-export default Divider;
+export default IntersectingWavesDivider;

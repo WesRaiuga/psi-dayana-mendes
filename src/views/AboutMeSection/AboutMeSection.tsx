@@ -7,6 +7,7 @@ import Subtitle from "../../components/Subtitle/Subtitle";
 const AboutMeSection = () => {
   return (
     <>
+      {/* <BubbleSideDivider color="#000"/> */}
       <section id="about-me" className={style.aboutMeSection}>
         <div className={style.sectionTitle}>
           <Subtitle>Sobre Mim</Subtitle>

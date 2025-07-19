@@ -1,5 +1,5 @@
 .bannerContainer {
-  height: 100vh;
+  height: 110vh;
   background-color: var(--hero-bg-color);
   background-image: url("../../assets/img/bg-pattern.png");
   background-color: rgba(222, 232, 254, 0.6);
