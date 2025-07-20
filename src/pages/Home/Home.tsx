@@ -29,9 +29,9 @@ const Home = () => {
       <Banner />
       {/* <Divider color="#000" /> */}
       <BubbleSideDivider color={highlightedSessionColor} />
-      <AboutMeSection />
-      <IntersectingWavesDivider color={highlightedSessionColor} />
       <SymptomsSection />
+      <IntersectingWavesDivider color={highlightedSessionColor} />
+      <AboutMeSection />
       <HowItWorksSection />
       <ApproachSection />
       <BubbleSideDivider color={highlightedSessionColor} />

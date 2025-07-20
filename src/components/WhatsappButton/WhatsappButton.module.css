@@ -8,7 +8,7 @@
   border-radius: 10px;
   font-weight: 600;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.21);
-  background-color: var(--primary-color);
+  background-color: var(--button-color);
   color: var(--text-color-light);
   transition: transform 0.3s ease-in-out;
   display: inline-block;
@@ -17,6 +17,6 @@
 .wppLink:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 20px 5px var(--primary-color);
-  background-color: var(--background-color);
+  background-color: var(--button-hover-color);
   color: var(--primary-color);
 }

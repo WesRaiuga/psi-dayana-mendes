@@ -7,12 +7,12 @@ interface MenuLinksProps {
 const MenuLinks = ({ className }: MenuLinksProps) => {
   return (
     <nav className={`${className ? " " + className : ""}`}>
-      <Link to="/" state={{ scrollTo: "about-me" }}>
-        Sobre mim
-      </Link>
-
       <Link to="/" state={{ scrollTo: "symptoms" }}>
         Sintomas
+      </Link>
+
+      <Link to="/" state={{ scrollTo: "about-me" }}>
+        Sobre mim
       </Link>
 
       <Link to="/" state={{ scrollTo: "how-it-works" }}>

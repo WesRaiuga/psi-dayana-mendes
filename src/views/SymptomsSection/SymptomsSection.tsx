@@ -1,8 +1,9 @@
+import style from "../SymptomsSection/SymptomSection.module.css";
 import Subtitle from "../../components/Subtitle/Subtitle";
 
 const SymptomsSection = () => {
   return (
-    <section id='symptoms'>
+    <section id='symptoms'  className={style.symptomSection}>
       <Subtitle>Sintomas</Subtitle>
       <h2>Como posso te ajudar</h2>
       <p>Crescer em um mundo que exige tanto e oferece tão pouco para algumas de nós deixa marcas. Seja você uma mulher, uma pessoa LGBTQIAPN+, alguém que sente na pele as dores da desigualdade, ou até quem já conquistou espaços e, mesmo assim, carrega o peso da solidão, da cobrança e das relações difíceis — esse também pode ser o seu lugar de cuidado.</p>
