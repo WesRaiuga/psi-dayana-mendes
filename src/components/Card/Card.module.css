@@ -3,14 +3,10 @@
   border-radius: 12px;
   box-shadow: 5px 5px 10px 0px var(--image-border-color);
   padding: 1.2rem;
-  height: fit-content;
-  min-height: 250px;
   max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.5s;
-  cursor: pointer;
 }
 
 .card:hover {
@@ -33,17 +29,6 @@
 
 .description {
   font-size: 0.95rem;
-
-  overflow: hidden;
-  display: -webkit-box;
-  line-clamp: 4;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-}
-.expanded {
-  line-clamp: unset;
-  -webkit-line-clamp: unset;
-  max-height: none;
 }
 
 @media (min-width: 800px) {
