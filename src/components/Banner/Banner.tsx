@@ -15,7 +15,7 @@ const Banner = () => {
         <WhatsappButton />
       </div>
       <div className={style.scrollArrow}>
-        <Link to="/" state={{ scrollTo: "about-me" }}>
+        <Link to="/" state={{ scrollTo: "symptoms" }}>
           <i className="fa-solid fa-chevron-down"></i>
         </Link>
       </div>
