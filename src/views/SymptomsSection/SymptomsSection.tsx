@@ -1,62 +1,55 @@
-import style from "../SymptomsSection/SymptomSection.module.css";
+import style from "./SymptomSection.module.css";
 import Subtitle from "../../components/Subtitle/Subtitle";
+import Card from "../../components/Card/Card";
 
 const SymptomsSection = () => {
   return (
     <section id='symptoms'  className={style.symptomSection}>
       <Subtitle>Sintomas</Subtitle>
       <h2>Como posso te ajudar</h2>
-      <p>Crescer em um mundo que exige tanto e oferece tão pouco para algumas de nós deixa marcas. Seja você uma mulher, uma pessoa LGBTQIAPN+, alguém que sente na pele as dores da desigualdade, ou até quem já conquistou espaços e, mesmo assim, carrega o peso da solidão, da cobrança e das relações difíceis — esse também pode ser o seu lugar de cuidado.</p>
-      <p>Meu compromisso é criar um espaço seguro, ético e afetivo para quem deseja reorganizar suas emoções, questionar padrões e construir vínculos mais conscientes — sem fórmulas prontas e respeitando sua história.</p>
-      <p>Você pode me procurar se está passando por...</p>
-      <div>
-        <div>
-          <h3>🌿 Baixa autoestima e autocrítica</h3>
-          <p>A sensação de que, não importa o quanto você faça, nunca é o bastante.</p>
-        </div>
-        <div>
-          <h3>🌿 Relações que adoecem</h3>
-          <p>Vínculos marcados por silêncios, controle, desgaste ou o medo de se posicionar.</p>
-        </div>
-        <div>
-          <h3>🌿 Sobrecarga emocional e invisibilidade</h3>
-          <p>Você carrega tudo sozinha — em casa, no trabalho, nas relações — e, mesmo assim, parece que ninguém vê o seu cansaço.</p>
-        </div>
-        <div>
-          <h3>🌿 Ansiedade, insegurança e medo do fracasso</h3>
-          <p>Viver em alerta constante, esperando a próxima cobrança, julgamento ou crise.</p>
-        </div>
-        <div>
-          <h3>🌿 Padrões familiares que se repetem</h3>
-          <p>Histórias de escassez, violência ou abandono que atravessaram gerações e ainda ecoam nas suas escolhas.</p>
-        </div>
-        <div>
-          <h3>🌿 Dificuldade de se escutar e se priorizar</h3>
-          <p>Seu desejo, seu prazer e sua voz ficaram em segundo plano, e você quase não se reconhece.</p>
-        </div>
-        <div>
-          <h3>🌿Elaborar lutos e despedidas, com a delicadeza que esse processo exige</h3>
-          <p>Sejam elas de pessoas, fases, vínculos ou versões suas que ficaram pelo caminho.</p>
-        </div>
-      </div>
-      <div>
-        <p>🌸 Na terapia, caminhamos juntas para...</p>
-        <div>
-          <h3>✔️ Reconhecer e questionar sua história</h3>
-          <p>Olhar para o que você viveu e entender o que pode — e o que merece — ser diferente.</p>
-        </div>
-        <div>
-          <h3>✔️ Refletir sobre suas relações e seus limites</h3>
-          <p>Construir vínculos mais honestos, com afeto, respeito e sem abrir mão de si.</p>
-        </div>
-        <div>
-          <h3>✔️ Desenvolver novas perspectivas</h3>
-          <p>Criar consciência sobre o que te atravessa: família, cultura, gênero, classe — e transformar o que for possível.</p>
-        </div>
-        <div>
-          <h3>✔️ Se apropriar da sua potência</h3>
-          <p> Reorganizar a sua história com mais autonomia, sem se anular, sem se violentar, respeitando seu tempo.</p>
-        </div>
+      <p><b>Talvez você ainda não tenha conseguido nomear o que sente.</b></p>
+      <p>A sua curiosidade pela terapia pode ser incômodo difícil de explicar. Uma sensação de esgotamento. A impressão de estar repetindo ciclos. Ou uma vontade de cuidar de si que surgiu no meio do caos. Os motivos que levam alguém a buscar terapia são tão diversos quanto as histórias que carregamos. Mas alguns temas aparecem com frequência no consultório, e talvez você se reconheça em um ou em vários deles.</p>
+      <div className={style.cards}>
+        <Card 
+          title="Dificuldades nos relacionamentos"
+          description="Quando o diálogo falha, os desentendimentos se acumulam e os vínculos deixam de acolher. Relações amorosas, familiares ou de trabalho podem adoecer em silêncio. Às vezes, o afeto vira cobrança, e se posicionar parece arriscado demais."
+          icon=""
+        />
+        <Card 
+          title="Sobrecarga emocional e sensação de invisibilidade"
+          description="Você cuida de tudo, de todos — mas quase ninguém repara quando é você quem precisa. A rotina te engole, o corpo dá sinais, mas pedir ajuda parece egoísmo. Ser sempre “forte” tem um preço: o seu próprio bem-estar e saúde."
+          icon=""
+        />
+        <Card 
+          title="Oscilações Emocionais e Desânimo Persistente"
+          description="Tristeza sem motivo aparente, raiva acumulada, vontade de se isolar, crises de choro, aquela exaustão emocional e mental que não passa. Nem sempre é um diagnóstico — mas ainda assim, é sofrimento. E você merece escuta segura com acolhimento, respeito e cuidado."
+          icon=""
+        />
+        <Card 
+          title="Ansiedade, insegurança e autocrítica paralisante"
+          description="O corpo vive em alerta. O pensamento acelera, o coração dispara e até o silêncio pesa. O medo de errar, decepcionar ou não dar conta te acompanha o dia todo. Você se cobra, se compara, se julga. E, no fundo, sente que nunca é suficiente, mesmo fazendo o impossível. O que um dia foi estratégia pra se proteger, hoje só te machuca."
+          icon=""
+        />
+        <Card 
+          title="Padrões familiares que se repetem"
+          description="Histórias de escassez, rigidez ou abandono atravessaram gerações e ainda ecoam nas suas escolhas, medos e dores. A culpa aparece justo quando você tenta se diferenciar, abrir caminhos e construir uma vida mais saudável. E, mesmo desejando algo novo, é como se algo te puxasse de volta. Às vezes, seguir em frente parece desleal à família — mesmo quando permanecer no mesmo lugar é o que mais machuca."
+          icon=""
+        />
+        <Card 
+          title="Dificuldade de se escutar e se priorizar"
+          description="Você passou a vida tentando se encaixar — nos papéis que queriam que voce performasse, no que esperavam de você, no que parecia “certo”. Foi aprendendo a calar o que sentia, a esconder o que pensava, a deixar seus desejos pra depois. Agora, quando alguém pergunta “o que você quer?”, você trava. Parece simples, mas não é. Se colocar em primeiro lugar ainda soa errado. Ser quem você é, às vezes, parece demais para os outros. Mas se esconder, se podar, se calar... é uma violência que te fere toda vez que acontece."
+          icon=""
+        />
+        <Card 
+          title="Sexualidade atravessada por dor, culpa ou desconexão"
+          description="Sentir prazer é um direito — mas nem sempre foi vivido assim. Seu corpo carrega memórias, medos ou silenciamentos. Às vezes, o problema não é o desejo, mas o quanto você teve que se desconectar dele pra sobreviver."
+          icon=""
+        />
+        <Card 
+          title="Lutos e despedidas difíceis de elaborar"
+          description="Nem todo luto envolve a morte de alguém, mas todo luto merece cuidado. Pode ser o fim de uma amizade, um relacionamento que se rompeu, uma fase da vida que ficou para trás, um sonho que não vingou, uma versão sua que já não faz mais sentido. Pode ser também a morte de um bichinho de estimação, uma perda gestacional, o falecimento de alguém que você ama — ou até alguém com quem o vínculo era confuso, mas a ausência ainda dói."
+          icon=""
+        />
       </div>
     </section>
   )

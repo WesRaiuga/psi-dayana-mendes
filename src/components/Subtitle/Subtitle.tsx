@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Subtitle.module.css";
 
-type SubtitleProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+type SubtitleProps = {
   children: React.ReactNode;
 };
 

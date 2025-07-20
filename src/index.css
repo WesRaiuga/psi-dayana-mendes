@@ -95,6 +95,12 @@ section p {
   }
 }
 
+@media (min-width: 1200px) {
+  section {
+    padding: 50px 20% 20px;
+  }
+}
+
 /* Shadcn / Tailwind CSS */
 
 @theme inline {

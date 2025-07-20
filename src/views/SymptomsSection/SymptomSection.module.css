@@ -1,3 +1,14 @@
 .symptomSection {
     background-color: var(--highlight-section);
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 800px) {
+    
+}
