@@ -7,8 +7,8 @@ const faqData = [
   {
     question: "Como faço para iniciar a minha terapia com você?",
     answer: [
-      "Fico muito feliz que esteja considerando começar sua terapia comigo. Sei que essa escolha envolve coragem, e quero que saiba que será recebida com respeito, sensibilidade e compromisso desde o primeiro contato.",
       <>
+      Fico muito feliz que esteja considerando começar sua terapia comigo. Sei que essa escolha envolve coragem, e quero que saiba que será recebida com respeito, sensibilidade e compromisso desde o primeiro contato.
         É só me chamar no WhatsApp:{" "}
         <Link to="https://wa.me/5511960765640?text=Oi%20Day,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sessão"
         target="_blank" rel="noopener noreferrer"

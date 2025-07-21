@@ -18,11 +18,23 @@ const Footer = () => {
         </div>
 
         <div className={style.socialIcons}>
+          <Link to="https://wa.me/5511960765640?text=Oi%20Day,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sessão" target="_blank" rel="noopener noreferrer" title="Whatsapp">
+            <i className="fa-brands fa-whatsapp"></i>
+            <span className={style.socialText}>
+              (11) 96076-5640
+            </span>
+          </Link>
           <Link to="https://www.instagram.com/dayanamendes.psi/" target="_blank" rel="noopener noreferrer" title="Instagram">
             <i className="fa-brands fa-instagram"></i>
+            <span className={style.socialText}>
+              @dayanamendes.psi
+            </span>
           </Link>
           <Link to="https://www.linkedin.com/in/dayanamendes/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <i className="fa-brands fa-linkedin"></i>
+            <span className={style.socialText}>
+              Dayana Mendes
+            </span>
           </Link>
         </div>
       </div>
