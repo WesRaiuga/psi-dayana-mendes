@@ -10,7 +10,7 @@ const EducationSection = () => {
       </div>
       <div>
         <Subtitle>Minhas Formações</Subtitle>
-        <h2 className={style.sectionTitle}>Estudos e Experiências</h2>
+        <h2 className={style.sectionTitle}>Aprendizados Que Caminham Comigo</h2>
         <p>Minha trajetória é feita de estudo, prática clínica e muita escuta:</p>
 
         <ul>

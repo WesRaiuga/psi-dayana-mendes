@@ -1,7 +1,6 @@
 import style from "../AboutMeSection/AboutMeSection.module.css";
 import profileImage from "../../assets/img/photos/day-filosofa.jpg";
 import WhatsappButton from "../../components/WhatsappButton/WhatsappButton";
-import EducationSection from "../EducationSection/EducationSection";
 import Subtitle from "../../components/Subtitle/Subtitle";
 
 const AboutMeSection = () => {
@@ -10,7 +9,7 @@ const AboutMeSection = () => {
       <section id="about-me" className={style.aboutMeSection}>
         <div className={style.sectionTitle}>
           <Subtitle>Sobre Mim</Subtitle>
-          <h2>Conheça sua Psicóloga</h2>
+          <h2>Conheça Sua Psicóloga</h2>
         </div>
         <div className={style.aboutMeContent}>
           <div className={style.profileImageContainer}>
@@ -29,7 +28,7 @@ const AboutMeSection = () => {
         </div>
         <WhatsappButton />
       </section>
-      <EducationSection />
+      
     </>
   );
 };

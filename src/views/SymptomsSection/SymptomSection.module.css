@@ -1,5 +1,6 @@
 .symptomSection {
-    background-color: var(--highlight-section);
+    padding-bottom: 100px;
+    background-color: var(--background-color);
 }
 
 .cards {

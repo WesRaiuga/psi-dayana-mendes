@@ -6,7 +6,7 @@ const SymptomsSection = () => {
   return (
     <section id='symptoms'  className={style.symptomSection}>
       <Subtitle>Sintomas</Subtitle>
-      <h2>Como posso te ajudar</h2>
+      <h2>Como Posso Te Ajudar</h2>
       <p><b>Talvez você ainda não tenha conseguido nomear o que sente.</b></p>
       <p>A sua curiosidade pela terapia pode ser incômodo difícil de explicar. Uma sensação de esgotamento. A impressão de estar repetindo ciclos. Ou uma vontade de cuidar de si que surgiu no meio do caos. Os motivos que levam alguém a buscar terapia são tão diversos quanto as histórias que carregamos. Mas alguns temas aparecem com frequência no consultório, e talvez você se reconheça em um ou em vários deles.</p>
       <div className={style.cards}>
@@ -25,7 +25,7 @@ const SymptomsSection = () => {
           className={style.card}
         />
         <Card 
-          title="Oscilações Emocionais e Desânimo Persistente"
+          title="Oscilações emocionais e desânimo persistente"
           description="Tristeza sem motivo aparente, vontade de se isolar, crises de choro. A exaustão emocional e mental não passa, mas você segue em silêncio, como se ninguém percebesse o peso que carrega."
           icon=""
           hover={true}

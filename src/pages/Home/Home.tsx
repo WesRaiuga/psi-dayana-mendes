@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Banner from "../../components/Banner/Banner";
 import AboutMeSection from "../../views/AboutMeSection/AboutMeSection";
+import EducationSection from "../../views/EducationSection/EducationSection";
 import IntersectingWavesDivider from "../../components/dividers/IntersectingWavesDivider/IntersectingWavesDivider";
 import BubbleSideDivider from "../../components/dividers/BubbleSideDivider/BubbleSideDivider";
 import FaqSection from "../../views/FaqSection/FaqSection";
@@ -12,6 +13,7 @@ import ServicesSection from "../../views/ServicesSection/ServicesSection";
 
 const Home = () => {
   const highlightedSessionColor = "#DEE8FE";
+  const backgroundColor = "#f4f6f8";
   const location = useLocation();
 
   useEffect(() => {
@@ -27,16 +29,17 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <BubbleSideDivider color={highlightedSessionColor} />
+      <BubbleSideDivider color={backgroundColor} />
 
       <SymptomsSection />
-      <IntersectingWavesDivider color={highlightedSessionColor} />
+      <BubbleSideDivider color={highlightedSessionColor} />
 
       <AboutTherapy />
+      <ApproachSection />
+      <IntersectingWavesDivider color={highlightedSessionColor} />
 
       <AboutMeSection />
-
-      <ApproachSection />
+      <EducationSection />
       <BubbleSideDivider color={highlightedSessionColor} />
 
       <ServicesSection />

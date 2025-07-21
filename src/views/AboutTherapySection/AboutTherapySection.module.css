@@ -1,28 +1,38 @@
+.aboutTherapy {
+  background-color: var(--highlight-section);
+}
+
 .introText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .introText p {
-    margin: 5px 0;
-    text-align: center;
+  margin: 5px 0;
+  text-align: center;
 }
 
 .carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 .text p {
-    font-size: 0.8rem;
-    margin: 3px 0;
-    text-align: justify;
+  font-size: 0.8rem;
+  margin: 3px 0;
+  text-align: justify;
+}
+
+@media (min-width: 800px) {
+  .text {
+    padding: 0 30px;
+  }
 }

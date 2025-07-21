@@ -7,61 +7,50 @@ const pillarsData = [
   {
     title: "Escuta ética e sensível",
     text: [
-      "A escuta é a base de tudo.",
-      "Mas não qualquer escuta — e sim uma escuta técnica, afetiva e comprometida, capaz de perceber nuances, respeitar silêncios e acolher dores que talvez nunca tenham sido nomeadas.",
-      "Muitas vezes, a queixa que chega não é o que mais dói — é apenas o que deu para ser dito naquele momento.",
-      "Por isso, o cuidado começa no modo como se escuta: com atenção genuína, curiosidade respeitosa e um olhar que entende o sofrimento como parte de vínculos, histórias, padrões e contextos sociais.",
-      "Aqui, não é preciso se justificar para receber acolhimento.",
-      "Este é um espaço onde a escuta vai além da neutralidade: é ativa, participativa e implicada com o processo de quem se permite narrar a própria história.",
-      "Apesar de ser um contexto profissional, construímos uma relação humana — com afeto, colaboração e presença verdadeira.",
-      "A escuta, nesse lugar, é também forma de cuidado."
+      'Na terapia, muitas pessoas estreiam no direito de serem ouvidas com dignidade.',
+      'Sem pressa, sem interrupções, sem alguém tentando consertar o que foi dito.',
+      'Mas não é qualquer escuta — há técnica, há ciência, e também uma pessoa inteira ali, que não esquece o quanto é valioso se conectar de forma genuína.',
+      'Interessa a queixa, mas também o que pulsa por trás dela: histórias, vínculos, repetições.',
+      'Nem toda dor chega nomeada. Aqui, até o seu silêncio é escutado com respeito.'
     ],
   },
   {
     title: "Protagonismo de quem busca pela terapia",
     text: [
-      "Você conhece sua história como ninguém.",
-      "Na terapia, esse saber tem valor.",
-      "Aqui, não se trata de seguir respostas prontas ou fórmulas externas, mas de se reconhecer como parte ativa da própria trajetória.",
-      "Na correria do dia a dia, é comum faltar tempo para olhar pra dentro.",
-      "A terapia oferece essa pausa rara: um tempo onde é possível se escutar com mais calma, se demorar em si e sustentar escolhas que façam sentido.",
-      "É um processo que convida à autonomia e ao agenciamento da própria vida — saindo do lugar de espera e se envolvendo, no seu tempo, com as mudanças que já podem começar a acontecer.",
-      "Meu papel é caminhar junto: oferecendo ferramentas clínicas, apoio e perguntas que ampliem o olhar.",
-      "Com o tempo, é possível se valorizar com mais consciência, dar nome ao que antes parecia confuso e sustentar quem se é — com intenção, responsabilidade e afeto."
+      'Você conhece sua história como ninguém — e, na terapia, esse saber tem valor.',
+      'Não se trata de seguir respostas prontas, mas de se reconhecer como parte ativa do próprio caminho.',
+      'Em meio à correria, é raro ter um tempo pra se escutar com calma.',
+      'A terapia oferece essa pausa: um espaço pra se demorar em si, sustentar escolhas que façam sentido e sair do lugar de espera.',
+      'Com apoio, perguntas e presença clínica, é possível ampliar o olhar e, aos poucos, sustentar quem se é — com intenção, consciência e afeto.'
     ],
   },
   {
     title: "Parceria e co-construção",
     text: [
-      "A terapia é um espaço de troca, vínculo e construção conjunta.",
-      "As transformações que acontecem aqui não surgem de um saber imposto, mas da parceria entre quem busca cuidado e quem sustenta o processo com presença clínica e ética.",
-      "Nas Práticas Narrativas da Terapia Sistêmica, chamamos isso de co-construção: a ideia de que o significado das experiências não está pronto nem fixo, mas pode ser ampliado, ressignificado e reconstruído por meio da linguagem, da escuta e do encontro.",
-      "Cada sessão é uma oportunidade para nomear dores, reconhecer recursos esquecidos, construir ferramentas de cuidado e recontar a própria história com mais liberdade e coerência.",
-      "Há direção, sim — cada passo é sustentado por intencionalidade terapêutica e sensibilidade ao tempo de quem chega.",
-      "Essa parceria envolve engajamento mútuo: abertura para a troca, responsabilidade nos combinados e presença possível para o processo."
+      'Na terapia, nada é imposto. Escutamos, nomeamos e questionamos como equipe.',
+      'Observamos padrões, pensamentos, emoções e comportamentos que se repetem — e o impacto disso nas suas escolhas e vínculos.',
+      'Com recursos narrativos e cognitivos — como externalização, escrita terapêutica, perguntas reflexivas e pequenas ações no cotidiano — vamos criando sentidos novos para o que antes parecia fixo.',
+      'É no encontro entre saberes que o cuidado se torna caminho.'
     ],
   },
   {
     title: "Confiança e segurança relacional",
     text: [
-      "A confiança é um dos alicerces do cuidado psicológico.",
-      "Ela se constrói com tempo, coerência e respeito aos limites de cada pessoa.",
-      "Aqui, o sigilo é um compromisso inegociável. A escuta é protegida — ética, humana e sensível às histórias que atravessam quem chega até mim.",
-      "Este é um espaço pensado para não ferir novamente: livre de revitimizações, julgamentos ou interpretações que culpabilizam.",
-      "O cuidado acontece no vínculo real entre duas pessoas: uma que deseja ser escutada com dignidade, e outra que sustenta essa escuta com responsabilidade clínica.",
-      "Quando há segurança, torna-se possível relaxar as defesas e tocar em partes da história que merecem ser vistas, nomeadas e cuidadas com delicadeza."
+      'Mesmo sendo um serviço, a terapia também é uma relação — e como toda relação, precisa de uma abertura mínima pra acontecer.',
+      'A escuta é protegida por sigilo, ética e sensibilidade às histórias que chegam.',
+      'Este é um espaço pensado para não ferir: livre de revitimizações, julgamentos ou interpretações que culpabilizam.',
+      'Se você tiver qualquer dúvida ou feedback, lembre-se que comigo você tem um canal aberto. O vínculo também se fortalece quando é possível conversar sobre ele.'
     ],
   },
   {
     title: "Responsabilidade compartilhada",
     text: [
-      "Cuidar da saúde mental é um compromisso que se constrói em parceria.",
-      "A terapia só se sustenta quando há intenção mútua de preservar o que está sendo cultivado.",
-      "Por isso, valorizo acordos claros, comunicação aberta e responsabilidade de ambas as partes com aquilo que foi combinado: comparecer às sessões, respeitar os horários, realizar os pagamentos acordados e avisar com antecedência quando necessário.",
-      "Esses cuidados práticos também sustentam o vínculo, o ritmo e a continuidade do percurso.",
-      "Do meu lado, me comprometo com uma escuta ética, presença real e preparo técnico constante.",
-      "E convido quem chega a cuidar desse espaço também — com o que for possível no momento, mas com presença verdadeira.",
-      "É nesse pacto silencioso de cuidado mútuo que o processo ganha força."
+      'Cuidar da saúde mental é um compromisso que se constrói em parceria.',
+      'A terapia só se sustenta quando há intenção mútua de preservar o que está sendo cultivado.',
+      'Por isso, valorizo acordos claros: presença nas sessões, respeito aos horários, avisos com antecedência e alinhamento sobre pagamentos.',
+      'Esses cuidados práticos sustentam o vínculo, o percurso.',
+      'Do meu lado, me comprometo com uma escuta ética, presença real e aperfeiçoamento técnico constante.',
+      'É nesse combinado de cuidado mútuo que o processo ganha força.'
     ],
   },
   {
@@ -78,7 +67,7 @@ const pillarsData = [
 
 const HowItWorksSection = () => {
   return (
-    <section id="how-it-works">
+    <section id="how-it-works" className={style.aboutTherapy}>
       <Subtitle>Sobre a Terapia</Subtitle>
       <h2>Os Principais Pilares</h2>
       <div className={style.introText}>

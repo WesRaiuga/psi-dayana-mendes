@@ -5,7 +5,7 @@ const ApproachSection = () => {
   return (
     <section id='approach' className={style.approachSection}>
       <Subtitle>Minha Abordagem</Subtitle>
-      <h2>Minha Abordagem</h2>
+      <h2>O Olhar Que Guia Meu Trabalho Clínico</h2>
       <p>Minha escuta clínica é sustentada pelas <b>Práticas Narrativas</b>, pela <b>Terapia Sistêmica</b> e por um olhar feminista, interseccional e atento às singularidades de cada pessoa.</p>
       <p>Sou pós-graduanda em <b>Terapia Familiar Sistêmica</b> e sigo em constante formação, através de cursos, leituras, grupos de estudo e coletivos que fortalecem meu compromisso com um cuidado ético, responsável e politicamente sensível. Tenho capacitações em <b>tanatologia, relações afetivas, atendimentos para mulheres</b>, casais e processos que envolvem luto, mudança e reconstrução.</p>
       <p>O que aprendo nesses espaços, somado às histórias que acompanho no consultório, molda a forma como escuto, me posiciono e cuido. Acredito que ninguém existe fora de um contexto. Cada pessoa é atravessada por redes — de vínculos, ausências, ciclos familiares, afetos, violências, expectativas e também potências.</p>
