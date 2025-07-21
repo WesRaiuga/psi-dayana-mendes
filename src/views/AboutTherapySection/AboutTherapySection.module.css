@@ -1,0 +1,28 @@
+.introText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.introText p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 800px;
+}
+
+.text p {
+    font-size: 0.8rem;
+    margin: 3px 0;
+    text-align: justify;
+}

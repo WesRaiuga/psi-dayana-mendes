@@ -6,7 +6,7 @@ import IntersectingWavesDivider from "../../components/dividers/IntersectingWave
 import BubbleSideDivider from "../../components/dividers/BubbleSideDivider/BubbleSideDivider";
 import FaqSection from "../../views/FaqSection/FaqSection";
 import SymptomsSection from "../../views/SymptomsSection/SymptomsSection";
-import HowItWorksSection from "../../views/HowItWorksSection/HowItWorksSection";
+import AboutTherapy from "../../views/AboutTherapySection/AboutTherapySection";
 import ApproachSection from "../../views/ApproachSection/ApproachSection";
 import ServicesSection from "../../views/ServicesSection/ServicesSection";
 
@@ -27,16 +27,21 @@ const Home = () => {
   return (
     <>
       <Banner />
-      {/* <Divider color="#000" /> */}
       <BubbleSideDivider color={highlightedSessionColor} />
+
       <SymptomsSection />
       <IntersectingWavesDivider color={highlightedSessionColor} />
+
+      <AboutTherapy />
+
       <AboutMeSection />
-      <HowItWorksSection />
+
       <ApproachSection />
       <BubbleSideDivider color={highlightedSessionColor} />
+
       <ServicesSection />
       <IntersectingWavesDivider color={highlightedSessionColor} />
+
       <FaqSection />
     </>
   );

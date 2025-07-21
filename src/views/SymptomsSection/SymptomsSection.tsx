@@ -14,41 +14,57 @@ const SymptomsSection = () => {
           title="Dificuldades nos relacionamentos"
           description="Quando o diálogo falha, os desencontros se acumulam e o vínculo perde o cuidado. Relações amorosas, familiares ou profissionais começam a machucar mais do que acolher."
           icon=""
+          hover={true}
+          className={style.card}
         />
         <Card 
           title="Sobrecarga emocional e sensação de invisibilidade"
           description="Você cuida de tudo e de todos, mas quase ninguém repara quando é você quem precisa. A rotina engole, o corpo dá sinais — mas pedir ajuda parece egoísmo."
           icon=""
+          hover={true}
+          className={style.card}
         />
         <Card 
           title="Oscilações Emocionais e Desânimo Persistente"
           description="Tristeza sem motivo aparente, vontade de se isolar, crises de choro. A exaustão emocional e mental não passa, mas você segue em silêncio, como se ninguém percebesse o peso que carrega."
           icon=""
+          hover={true}
+          className={style.card}
         />
         <Card 
           title="Ansiedade, insegurança e autocrítica paralisante"
           description="O corpo vive em alerta. O pensamento acelera, o medo de errar aperta o peito. Você se cobra, se compara, se julga. Planejar tudo nos mínimos detalhes já foi uma forma de se sentir segura — mas, agora, só aumenta o cansaço."
           icon=""
+          hover={true}
+          className={style.card}
         />
         <Card 
           title="Padrões familiares que se repetem"
           description="Histórias de escassez, controle ou abandono atravessam gerações e ecoam nas suas escolhas. E quando você tenta quebrar o ciclo, a culpa aparece."
           icon=""
+          hover={true}
+          className={style.card}
         />
         <Card 
           title="Dificuldade de se escutar e se priorizar"
           description='Você aprendeu a se moldar para caber nos papéis que esperavam de você. Agora, diante da pergunta "o que você quer?", o vazio assusta.'
           icon=""
+          hover={true}
+          className={style.card}
         />
         <Card 
           title="Sexualidade atravessada por dor, culpa ou desconexão"
           description="Sentir prazer é um direito — mas nem sempre foi vivido assim. Seu corpo carrega silenciamentos, medos ou feridas. E talvez ainda esteja aprendendo a habitar-se."
           icon=""
+          hover={true}
+          className={style.card}
         />
         <Card 
           title="Lutos e despedidas difíceis de elaborar"
           description="Nem todo luto envolve a morte. Pode ser o fim de uma fase, de um vínculo ou de quem você foi. Toda despedida merece tempo, cuidado e dignidade."
           icon=""
+          hover={true}
+          className={style.card}
         />
       </div>
     </section>

@@ -7,7 +7,6 @@ import Subtitle from "../../components/Subtitle/Subtitle";
 const AboutMeSection = () => {
   return (
     <>
-      {/* <BubbleSideDivider color="#000"/> */}
       <section id="about-me" className={style.aboutMeSection}>
         <div className={style.sectionTitle}>
           <Subtitle>Sobre Mim</Subtitle>
@@ -19,17 +18,16 @@ const AboutMeSection = () => {
           </div>
           <div className={style.aboutMeText}>
             <div>
-              <p>Heyy, boas-Vindas! Me chamo Dayana Mendes, sou psicóloga clínica (CRP 06/177353) e criadora de conteúdo digital sobre saúde mental.. Atuo com Psicoterapia Individual e de Casais, com foco especial em mulheres jovens adultas e pessoas LGBTQIAPN+ que buscam ressignificar suas histórias, construir vínculos mais saudáveis e fortalecer sua autonomia emocional.</p>
-              <p>Minha trajetória não começa no título de psicóloga. Venho de uma origem simples, sou filha de migrantes nordestinos e fui criada por mulheres extremamente humanas que me ensinaram sobre afeto, resistência — e também sobre o cansaço de tentar dar conta de tudo sozinha.</p>
-              <p>Já me senti perdida dentro da minha própria história. Foi através da terapia — e do estudo — que reencontrei caminhos, me reconstruí e passei a olhar pra minha vida com mais respeito e humanidade.</p>
-              <p>Hoje meu compromisso é criar espaços seguros onde você possa se escutar, se fortalecer e construir novas formas de existir, sem fórmulas prontas, sem julgamentos.</p>
-              <p>Minha escuta é sistêmica, narrativa, feminista e atravessada pela vida real, com suas camadas, desafios e possibilidades de recomeço.</p>
-            </div>
-            <div>
+              <p>Heyy, eu sou a Dayana Mendes — mas pode me chamar de Day.</p>
+              <p>Sou psicóloga clínica (CRP 06/177353), filha de migrantes nordestinos e nascida em São Paulo. Cresci cercada por mulheres que me ensinaram sobre afeto, força e redes de cuidado. Minha trajetória é atravessada por ancestralidade, curiosidade e desejo de transformação.</p>
+              <p>Atendo principalmente mulheres jovens adultas e pessoas LGBTQIAPN+ que desejam ressignificar vivências, revisar padrões e encontrar formas mais livres e conscientes de existir.</p>
+              <p>Construo uma clínica ética, sensível e politicamente implicada. Compreendo o sofrimento psíquico de forma integral — como algo que envolve corpo, história, afetos, vínculos e também os contextos sociais em que vivemos. Minha escuta é orientada pelas Práticas Narrativas da Terapia Sistêmica e por uma ética feminista e interseccional.</p>
+              <p>Gosto de ler, maratonar séries, assistir filmes sensíveis e jogar — especialmente quando os jogos trazem boas histórias ou exploram o emocional de forma crítica e sensível. Também acompanho animes, animações e a cultura geek com carinho.</p>
+              <p>Se algo em você está pedindo por reconexão, talvez aqui seja um bom lugar pra começar.</p>
             </div>
           </div>
         </div>
-              <WhatsappButton />
+        <WhatsappButton />
       </section>
       <EducationSection />
     </>

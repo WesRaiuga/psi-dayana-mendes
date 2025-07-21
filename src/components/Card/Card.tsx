@@ -1,18 +1,22 @@
-import styles from "./Card.module.css";
+import style from "./Card.module.css";
 
 type CardProps = {
   title: string;
   description: string;
   icon?: string;
+  hover?: boolean,
+  children?: React.ReactNode,
+  className?: string
 };
 
-const Card: React.FC<CardProps> = ({ title, description, icon }: CardProps) => {
+const Card: React.FC<CardProps> = ({ title, description, icon, hover, children, className }: CardProps) => {
   return (
-    <div className={styles.card}>
-      {icon && <img src={icon} alt="Ícone" className={styles.icon} />}
-      <div className={styles.textContent}>
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.description}>{description}</p>
+    <div className={`${style.card} ${hover ? style.hover : ""} ${className ? " " + className : ""}`}>
+      {icon && <img src={icon} alt="Ícone" className={style.icon} />}
+      <div className={style.textContent}>
+        <h3 className={style.title}>{title}</h3>
+        <p className={style.description}>{description}</p>
+        {children}
       </div>
     </div>
   );

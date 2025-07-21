@@ -11,12 +11,12 @@ const MenuLinks = ({ className }: MenuLinksProps) => {
         Sintomas
       </Link>
 
-      <Link to="/" state={{ scrollTo: "about-me" }}>
-        Sobre mim
+      <Link to="/" state={{ scrollTo: "how-it-works" }}>
+        Psicoterapia
       </Link>
 
-      <Link to="/" state={{ scrollTo: "how-it-works" }}>
-        Como funciona
+      <Link to="/" state={{ scrollTo: "about-me" }}>
+        Sobre mim
       </Link>
 
       <Link to="/" state={{ scrollTo: "services" }}>
