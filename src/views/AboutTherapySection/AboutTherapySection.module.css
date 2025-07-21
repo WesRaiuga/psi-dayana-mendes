@@ -35,4 +35,8 @@
   .text {
     padding: 0 30px;
   }
+
+  .text p {
+    font-size: 16px;
+  }
 }
