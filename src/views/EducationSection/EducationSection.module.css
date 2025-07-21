@@ -8,8 +8,9 @@
 }
 
 .educationSection ul li:before {
-  content: "\f00c"; /* FontAwesome Unicode */
-  font-family: FontAwesome;
+  content: "✨"; /* FontAwesome Unicode */
+  /* font-family: FontAwesome; */
   display: inline-block;
   margin-right: 10px;
+  filter: invert(0.8);
 }

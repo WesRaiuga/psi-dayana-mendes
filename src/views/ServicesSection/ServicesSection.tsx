@@ -1,45 +1,55 @@
 import style from "../ServicesSection/ServicesSection.module.css";
 import Subtitle from "../../components/Subtitle/Subtitle";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+
+const servicesData = [
+  {
+    title: "Psicoterapia Individual",
+    text: ["Atendimentos online semanais com duração de 50 minutos. Voltados para mulheres e pessoas LGBTQIAPN+ que desejam compreender suas dores com mais profundidade e encontrar formas mais saudáveis de existir. Durante os encontros, trabalhamos temas como ansiedade, autocrítica, padrões familiares, relações afetivas e sobrecarga emocional, a partir de uma escuta atenta à tua história. Sempre que fizer sentido, indico materiais complementares, como textos e filmes, para acompanhar o processo."],
+  },
+  {
+    title: "Terapia de Casal",
+    text: ["Sessões de 1h a 1h15 para casais (heterossexuais ou LGBTQIAPN+) que desejam melhorar o diálogo, cuidar de feridas emocionais e fortalecer a conexão. O espaço é conduzido com base em uma perspectiva sistêmica e interseccional, onde os dois lados são escutados e questões como comunicação, confiança, ciúmes, sexualidade e diferenças culturais são trabalhadas com profundidade. A terapia se adapta às necessidades específicas de cada casal."]
+  },
+  {
+    title: "Supervisão para Psis",
+    text: ["Espaço de trocas clínicas com foco em psicólogas que desejam sustentar sua prática com segurança, profundidade e ética. A supervisão pode ser individual ou em grupo e acolhe desde dúvidas técnicas até os atravessamentos pessoais que emergem nos atendimentos. Utilizo uma perspectiva sistêmica, narrativa e feminista, com atenção aos marcadores sociais que atravessam a clínica."]
+  },
+  {
+    title: "Desenvolvimento de Jogos",
+    text: ["Atuo no desenvolvimento de jogos com foco em escuta, empatia e construção emocional. Contribuo na criação de personagens, dinâmicas de vínculo e conteúdos que representem experiências subjetivas de forma ética e sensível. Meu trabalho integra psicologia narrativa e sistêmica com elementos criativos e lúdicos."]
+  },
+  {
+    title: "Saúde Mental nas Empresas",
+    text: ["Parcerias com empresas e coletivos que desejam criar ambientes mais saudáveis emocionalmente. Desenvolvo ações como grupos terapêuticos, formações, escuta especializada e rodas de conversa. As propostas são pensadas conforme a realidade e os objetivos de cada grupo, com foco em prevenção, cuidado e cultura organizacional."
+    ]
+  }
+];
 
 const ServicesSection = () => {
   return (
-    <section id='services' className={style.servicesSection}>
+    <section id="services" className={style.servicesSection}>
       <Subtitle>Serviços</Subtitle>
       <h2>Formas De Estar Presente</h2>
-      <p>Além dos atendimentos clínicos em Psicoterapia Individual e de Casal, também ofereço outros espaços de cuidado, informação e conexão. Tudo com o mesmo compromisso ético, afetivo e político que sustenta meu trabalho.</p>
-      <div>
-        <h3>✨ Para Psis</h3>
-        <p>Se você sente que precisa de um espaço seguro para refletir sobre os desafios da clínica, aprofundar o olhar sistêmico e compartilhar inquietações de forma ética e acolhedora, a supervisão pode ser esse lugar.</p>
-        <p>Eu ofereço dois formatos de supervisão: individual ou em grupo.</p>
-        <ul>
-          <li>Nos encontros individuais, o cuidado é todo direcionado às tuas demandas, focando nos casos que você deseja trazer, nas tuas dúvidas e no fortalecimento do teu olhar clínico.</li>
-          <li>Já nos grupos de supervisão, que acontecem com número reduzido de participantes, criamos juntas um ambiente seguro e colaborativo, onde podemos compartilhar desafios, pensar em conjunto e aprofundar a compreensão da abordagem sistêmica. A clínica não precisa ser solitária. Se você sente que precisa desse espaço para sustentar tua prática clínica com mais segurança, autonomia e sensibilidade, é só clicar aqui ou me chamar, que te explico melhor como funciona.</li>
-        </ul>
-      </div>
-      <div>
-        <h3>✨ Saúde Mental nas Empresas</h3>
-        <p>Cuidar da saúde mental dentro dos espaços de trabalho é urgente e necessário. Por isso, empresas ou instituições que queiram criar condições de acesso à psicoterapia para seus colaboradores podem entrar em contato comigo.</p>
-        <p>Ofereço condições especiais e valores diferenciados para grupos de trabalhadores, de acordo com o número de pessoas e a demanda de cada realidade. Se quiser conversar sobre isso, me chama e combinamos os detalhes.</p>
-      </div>
-      <div>
-        <h3>✨ Parcerias e Colaborações</h3>
-        <p>Tenho muita alegria em construir parcerias com pessoas e projetos que compartilham dos mesmos valores que carrego na minha prática: ética, cuidado com as relações, responsabilidade social e sensibilidade nas narrativas.</p>
-        <p>Se você tem uma proposta, uma ideia de parceria ou acredita que nossos trabalhos podem se cruzar de forma respeitosa e alinhada, me chama pra conversar. Vou ter o maior prazer em escutar.</p>
-      </div>
-      <div>
-        <h3>✨ Palestras, Roda de Conversa e Momentos de Formação</h3>
-        <p>Amo compartilhar saberes, trocar experiências e criar espaços de diálogo.</p>
-        <p>Ofereço rodas de conversa, momentos formativos e palestras sobre temas que atravessam minha prática clínica, como:</p>
-        <ul>
-          <li>Saúde mental de mulheres e pessoas LGBTQIA+</li>
-          <li>Relações afetivas, vínculos e comunicação saudável</li>
-          <li>Autonomia emocional e cuidado com as próprias histórias</li>
-          <li>Abordagem Sistêmica, Feminismo e Psicologia Narrativa</li>
-          <li>Saúde mental nas empresas e espaços educativos</li>
-        </ul>
+      <div className={style.dialogs}>
+        {servicesData.map((item, idx) => (
+          <Dialog key={idx}>
+            <DialogTrigger asChild>
+              <div className={style.dialogTrigger}>{item.title}</div>
+            </DialogTrigger>
+            <DialogContent className="sm:max-w-md">
+              <div className={style.dialogBody}>
+                <DialogTitle className={style.dialogTitle}>{item.title}</DialogTitle>
+                {item.text.map((text, i) => (
+                  <p key={i}>{text}</p>
+                ))}
+              </div>
+            </DialogContent>
+          </Dialog>
+        ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default ServicesSection;

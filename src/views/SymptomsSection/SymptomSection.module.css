@@ -3,6 +3,10 @@
     background-color: var(--background-color);
 }
 
+.star {
+    filter: invert(0.8);
+}
+
 .cards {
     display: flex;
     justify-content: center;
