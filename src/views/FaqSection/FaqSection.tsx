@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     question: "Como funciona a primeira sessão?",
-    answer: ["A primeira sessão é um espaço de chegada — o momento em que nos conhecemos e começamos a construir, com cuidado, o nosso vínculo. Não tem um roteiro fixo. É uma pausa na rotina pra você falar, no seu tempo, sobre o que tem vivido, o que anda pesando ou te fazendo repensar escolhas, vínculos e emoções. Não precisa ter tudo organizado nem saber por onde começar. Basta vir como puder.  A minha escuta é ativa, acolhedora e humana. Eu vou te ouvir com atenção e respeito, mas sem aquele silêncio distante que tantas vezes afasta. Esse estereótipo não faz parte da minha prática. Ao longo do processo, além da escuta, também trago reflexões, provocações clínicas e, quando fizer sentido, ferramentas práticas que ajudam a reconhecer padrões, ressignificar vivências e construir alternativas mais saudáveis — no seu tempo, com respeito à sua história."],
+    answer: ["A primeira sessão é um espaço de chegada, o momento em que nos conhecemos e começamos a construir, com cuidado, o nosso vínculo. Não tem um roteiro fixo. É uma pausa na rotina pra você falar, no seu tempo, sobre o que tem vivido, o que anda pesando ou te fazendo repensar escolhas, vínculos e emoções. Não precisa ter tudo organizado nem saber por onde começar. Basta vir como puder.  A minha escuta é ativa, acolhedora e humana. Eu vou te ouvir com atenção e respeito, mas sem aquele silêncio distante que tantas vezes afasta. Esse estereótipo não faz parte da minha prática. Ao longo do processo, além da escuta, também trago reflexões, provocações clínicas e, quando fizer sentido, ferramentas práticas que ajudam a reconhecer padrões, ressignificar vivências e construir alternativas mais saudáveis, no seu tempo, com respeito à sua história."],
   },
   {
     question: "Quanto custa a sessão e como funciona o pagamento?",
@@ -31,7 +31,7 @@ const faqData = [
   {
     question: "Preciso ter um grande problema pra começar a terapia?",
     answer: [
-      "Não. Muitas pessoas acreditam que só devem buscar terapia em momentos extremos, mas o cuidado emocional também pode ser preventivo — e isso faz toda a diferença. A terapia é um espaço pra escutar o que anda silencioso, entender os efeitos das suas escolhas, dos seus vínculos e dos contextos que te atravessam. Um lugar pra criar outras perguntas, ampliar perspectivas e sustentar movimentos mais conscientes, mesmo quando a dor ainda não tem nome. Não é sobre o “tamanho” do problema, mas sobre o desejo de viver com mais presença e autoria.",
+      "Não. Muitas pessoas acreditam que só devem buscar terapia em momentos extremos, mas o cuidado emocional também pode ser preventivo e isso faz toda a diferença. A terapia é um espaço pra escutar o que anda silencioso, entender os efeitos das suas escolhas, dos seus vínculos e dos contextos que te atravessam. Um lugar pra criar outras perguntas, ampliar perspectivas e sustentar movimentos mais conscientes, mesmo quando a dor ainda não tem nome. Não é sobre o “tamanho” do problema, mas sobre o desejo de viver com mais presença e autoria.",
     ]
   },
   {
@@ -55,13 +55,13 @@ const faqData = [
   {
     question: "Posso falar de sexualidade, gênero ou temas delicados nas sessões?",
     answer: [
-      "Sim. Esse é um espaço seguro, ético e preparado para te acolher por inteiro. Minha prática tem um olhar feminista e interseccional, e sei o quanto temas como sexualidade, identidade, corpo e relações podem ser atravessados por silenciamentos, julgamentos ou inseguranças. Aqui, não existem assuntos proibidos. Você pode trazer a sua história, suas dúvidas, suas dores e o que sentir necessidade de compartilhar — sempre no seu tempo, do seu jeito, com o cuidado e o respeito que sua vivência merece."
+      "Sim. Esse é um espaço seguro, ético e preparado para te acolher por inteiro. Minha prática tem um olhar feminista e interseccional, e sei o quanto temas como sexualidade, identidade, corpo e relações podem ser atravessados por silenciamentos, julgamentos ou inseguranças. Aqui, não existem assuntos proibidos. Você pode trazer a sua história, suas dúvidas, suas dores e o que sentir necessidade de compartilhar, sempre no seu tempo, do seu jeito, com o cuidado e o respeito que sua vivência merece."
     ]
   },
   {
     question: "Você atende por planos de saúde?",
     answer: [
-      "Meus atendimentos são particulares. Após cada sessão, emito um recibo eletrônico pelo sistema da Receita Federal, por meio da plataforma Receita Saúde — disponível no aplicativo oficial da Receita. Esse recibo pode ser usado para controle financeiro, declaração do Imposto de Renda ou solicitação de reembolso, caso o seu plano de saúde ofereça essa opção. Como as regras variam entre os convênios, recomendo confirmar diretamente com o seu plano se esse benefício está disponível. Se for solicitado algum documento complementar, posso tentar te ajudar com o que estiver ao meu alcance enquanto sua psicóloga, para facilitar esse processo da melhor forma possível."
+      "Meus atendimentos são particulares. Após cada sessão, emito um recibo eletrônico pelo sistema da Receita Federal, por meio da plataforma Receita Saúde, disponível no aplicativo oficial da Receita. Esse recibo pode ser usado para controle financeiro, declaração do Imposto de Renda ou solicitação de reembolso, caso o seu plano de saúde ofereça essa opção. Como as regras variam entre os convênios, recomendo confirmar diretamente com o seu plano se esse benefício está disponível. Se for solicitado algum documento complementar, posso tentar te ajudar com o que estiver ao meu alcance enquanto sua psicóloga, para facilitar esse processo da melhor forma possível."
     ]
   }
 ];
