@@ -10,6 +10,7 @@ import SymptomsSection from "../../views/SymptomsSection/SymptomsSection";
 import AboutTherapy from "../../views/AboutTherapySection/AboutTherapySection";
 import ApproachSection from "../../views/ApproachSection/ApproachSection";
 import ServicesSection from "../../views/ServicesSection/ServicesSection";
+import FloatingButtonArea from "@/views/FloatingButtonArea/FloatingButtonArea";
 
 const Home = () => {
   const highlightedSessionColor = "#DEE8FE";
@@ -28,6 +29,8 @@ const Home = () => {
 
   return (
     <>
+      <FloatingButtonArea />
+      
       <Banner />
       <BubbleSideDivider color={backgroundColor} />
 
