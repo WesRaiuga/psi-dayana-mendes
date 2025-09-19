@@ -20,9 +20,9 @@ const EducationSection = () => {
           </li>
           <li>Pós-graduanda em Terapia Sistêmica pela Viver Mais Psicologia;</li>
           <li>Capacitação em Terapia de Casais e Relações Amorosas;</li>
-          <li>Estudo contínuo em Tanatologia — para acolher os lutos, as despedidas e os encerramentos, sejam eles concretos ou simbólicos;</li>
+          <li>Estudo contínuo em Tanatologia: para acolher os lutos, as despedidas e os encerramentos, sejam eles concretos ou simbólicos;</li>
           <li>Participante de grupos de estudo e capacitações sobre Práticas Narrativas, Gênero, Sexualidade, Violências e Saúde Mental;</li>
-          <li>Pesquisadora dos atravessamentos entre Cultura Geek e jogos — integro o desenvolvimento de jogos sobre saúde mental, aproximando psicologia e narrativas interativas de forma segura e acessível.</li>
+          <li>Pesquisadora dos atravessamentos entre Cultura Geek e jogos: integro o desenvolvimento de jogos sobre saúde mental, aproximando psicologia e narrativas interativas de forma segura e acessível.</li>
           <li>Mais de 3 anos de experiência clínica, oferecendo escuta afetiva e responsável.</li>
         </ul>
 

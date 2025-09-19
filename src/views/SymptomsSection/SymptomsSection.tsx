@@ -19,7 +19,7 @@ const SymptomsSection = () => {
         />
         <Card 
           title="Sobrecarga emocional e sensação de invisibilidade"
-          description="Você cuida de tudo e de todos, mas quase ninguém repara quando é você quem precisa. A rotina engole, o corpo dá sinais — mas pedir ajuda parece egoísmo."
+          description="Você cuida de tudo e de todos, mas quase ninguém repara quando é você quem precisa. A rotina engole, o corpo dá sinais, mas pedir ajuda parece egoísmo."
           icon=""
           hover={true}
           className={style.card}
@@ -33,7 +33,7 @@ const SymptomsSection = () => {
         />
         <Card 
           title="Ansiedade, insegurança e autocrítica paralisante"
-          description="O corpo vive em alerta. O pensamento acelera, o medo de errar aperta o peito. Você se cobra, se compara, se julga. Planejar tudo nos mínimos detalhes já foi uma forma de se sentir segura — mas, agora, só aumenta o cansaço."
+          description="O corpo vive em alerta. O pensamento acelera, o medo de errar aperta o peito. Você se cobra, se compara, se julga. Planejar tudo nos mínimos detalhes já foi uma forma de se sentir segura, mas agora só aumenta o cansaço."
           icon=""
           hover={true}
           className={style.card}
@@ -54,7 +54,7 @@ const SymptomsSection = () => {
         />
         <Card 
           title="Sexualidade atravessada por dor, culpa ou desconexão"
-          description="Sentir prazer é um direito — mas nem sempre foi vivido assim. Seu corpo carrega silenciamentos, medos ou feridas. E talvez ainda esteja aprendendo a habitar-se."
+          description="Sentir prazer é um direito, mas nem sempre foi vivido assim. Seu corpo carrega silenciamentos, medos ou feridas. E talvez ainda esteja aprendendo a habitar-se."
           icon=""
           hover={true}
           className={style.card}

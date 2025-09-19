@@ -17,7 +17,7 @@ const pillarsData = [
   {
     title: "Protagonismo de quem busca pela terapia",
     text: [
-      'Você conhece sua história como ninguém — e, na terapia, esse saber tem valor.',
+      'Você conhece sua história como ninguém e, na terapia, esse saber tem valor.',
       'Não se trata de seguir respostas prontas, mas de se reconhecer como parte ativa do próprio caminho.',
       'Em meio à correria, é raro ter um tempo pra se escutar com calma.',
       'A terapia oferece essa pausa: um espaço pra se demorar em si, sustentar escolhas que façam sentido e sair do lugar de espera.',
@@ -28,15 +28,15 @@ const pillarsData = [
     title: "Parceria e co-construção",
     text: [
       'Na terapia, nada é imposto. Escutamos, nomeamos e questionamos como equipe.',
-      'Observamos padrões, pensamentos, emoções e comportamentos que se repetem — e o impacto disso nas suas escolhas e vínculos.',
-      'Com recursos narrativos e cognitivos — como externalização, escrita terapêutica, perguntas reflexivas e pequenas ações no cotidiano — vamos criando sentidos novos para o que antes parecia fixo.',
+      'Observamos padrões, pensamentos, emoções e comportamentos que se repetem e o impacto disso nas suas escolhas e vínculos.',
+      'Com recursos narrativos e cognitivos — como externalização, escrita terapêutica, perguntas reflexivas e pequenas ações no cotidiano, vamos criando sentidos novos para o que antes parecia fixo.',
       'É no encontro entre saberes que o cuidado se torna caminho.'
     ],
   },
   {
     title: "Confiança e segurança relacional",
     text: [
-      'Mesmo sendo um serviço, a terapia também é uma relação — e como toda relação, precisa de uma abertura mínima pra acontecer.',
+      'Mesmo sendo um serviço, a terapia também é uma relação e como toda relação, precisa de uma abertura mínima pra acontecer.',
       'A escuta é protegida por sigilo, ética e sensibilidade às histórias que chegam.',
       'Este é um espaço pensado para não ferir: livre de revitimizações, julgamentos ou interpretações que culpabilizam.',
       'Se você tiver qualquer dúvida ou feedback, lembre-se que comigo você tem um canal aberto. O vínculo também se fortalece quando é possível conversar sobre ele.'
@@ -58,9 +58,9 @@ const pillarsData = [
     text: [
       'Nem toda mudança faz barulho. Às vezes, ela chega no silêncio de um pensamento novo ou na coragem de dizer “não”.',
       'A terapia é um espaço para desacelerar e escutar o que já se move por dentro. Uma travessia sem receita, mas com direção.',
-      'Não se trata de virar outra pessoa, e sim de se reconhecer com mais inteireza. Cuidar do que dói — e também do que quer crescer.',
+      'Não se trata de virar outra pessoa, e sim de se reconhecer com mais inteireza. Cuidar do que dói e também do que quer crescer.',
       'As mudanças não precisam ser gigantes. Elas nascem nos detalhes: respeitar um limite, pedir ajuda, respirar fundo antes de repetir um padrão.',
-      'É assim, aos poucos, sem pressa e sem cobrança de performance, que as transformações se tornam possíveis — e duradouras.'
+      'É assim, aos poucos, sem pressa e sem cobrança de performance, que as transformações se tornam possíveis e duradouras.'
     ],
   }
 ];
