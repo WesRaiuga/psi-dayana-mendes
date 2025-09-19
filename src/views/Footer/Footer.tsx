@@ -43,8 +43,8 @@ const Footer = () => {
         <hr />
 
         <div className={style.psiInfo}>
-          <p>Psicóloga Dayana Mendes © 2025. Todos os direitos reservados.</p>
-          <p>CRP: 06/177353</p>
+          <p>Dayana dos Anjos Mendes Santos | Psicóloga | CRP: 06/177353</p>
+          <p>© 2025. Todos os direitos reservados.</p>
         </div>
 
         <div className={style.devInfo}>
